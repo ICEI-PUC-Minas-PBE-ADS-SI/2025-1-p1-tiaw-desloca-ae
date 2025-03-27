@@ -1,25 +1,24 @@
-# Nome do projeto
+# Desloca Aê
 
-`CURSO: Coloque o nome do curso aqui, sem abreviações`
+`CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações Web`
 
-`Xº semestre/ANO`
+`1º semestre/2025`
 
 Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Flávio Henrique Lara Santos
+* Lucas Gabriel Adelino Araújo
+* Matheus Lomas de Almeida Ameno
+* Pedro Martins Assunção de Oliveira
+* Vitor de Oliveira Guimaraes
 
 ## Professor
 
-* Nome completo do(a) professor(a)
+* Amália Soares Vieira de Vasconcelos
 
 ## Instruções de utilização
 
