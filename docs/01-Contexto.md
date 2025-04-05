@@ -36,8 +36,6 @@ Como afirma o urbanista Eduardo Vasconcellos:
 
 ## Público-alvo
 
-## Público-Alvo  
-
 O **Desloca Aê** tem como principal público-alvo pessoas que dependem do transporte público no seu dia a dia e enfrentam desafios como longos tempos de deslocamento, falta de informações precisas e dificuldade em planejar rotas eficientes. Entre os usuários mais frequentes estão trabalhadores urbanos, que precisam chegar pontualmente ao emprego e muitas vezes perdem horas em congestionamentos ou esperando ônibus e metrôs. Estudantes também são um grupo significativo, especialmente universitários que precisam conciliar deslocamentos longos com a rotina acadêmica. Profissionais autônomos, como entregadores e prestadores de serviço, também se beneficiam do aplicativo, já que precisam otimizar seus trajetos para atender mais clientes em menos tempo. Além disso, turistas e visitantes de outras cidades encontram no **Desloca Aê** uma ferramenta útil para se locomover com mais facilidade, mesmo sem conhecer bem a região.  
 
 O perfil predominante dos usuários inclui pessoas entre 18 e 50 anos, com familiaridade no uso de smartphones e aplicativos de navegação. Muitos deles já utilizam ferramentas como Google Maps ou Moovit, mas buscam uma solução mais focada em eficiência e integração de modais. Esses usuários valorizam praticidade, tempo e confiabilidade nas informações, já que imprevistos no transporte podem impactar diretamente seus compromissos.  
