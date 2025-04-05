@@ -16,7 +16,7 @@ Longos períodos de espera em pontos de ônibus, estações de metrô e baldeaç
 
 O objetivo geral é desenvolver um aplicativo que otimize o tempo de deslocamento no transporte público, proporcionando rotas mais eficientes e informações em tempo real.
 
-# Objetivos Específicos:
+### Objetivos Específicos:
 
 Reduzir o tempo de espera dos usuários, sugerindo os melhores horários e rotas disponíveis.
 
