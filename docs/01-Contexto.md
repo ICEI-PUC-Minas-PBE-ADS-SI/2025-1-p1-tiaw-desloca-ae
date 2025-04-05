@@ -10,7 +10,6 @@ O principal problema abordado pelo Desloca Aê é a ineficiência do transporte 
 
 Longos períodos de espera em pontos de ônibus, estações de metrô e baldeações, dificuldade em acessar horários atualizados, atrasos e rotas alternativas. De acordo com pesquisa da ANTP (Associação Nacional de Transportes Públicos, 2021), cerca de 70% dos usuários de transporte público no Brasil consideram a demora o maior problema em seus deslocamentos. Além disso, a falta de dados em tempo real faz com que muitos passageiros cheguem atrasados a compromissos importantes, como trabalho, estudos e consultas médicas, o que traz diversos transtornos e uma perda de qualidade de vida grande para essas pessoas.
 
-[MatrizCSD.pdf](https://github.com/user-attachments/files/19613516/MatrizCSD.pdf)
 
 ## Objetivos
 
