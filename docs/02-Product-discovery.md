@@ -1,9 +1,5 @@
 # Product discovery
 
-<span style="color:red">Pré-requisitos: <a href="01-Contexto.md"> Documentação de contexto</a></span>
-
-✅ [Documentação de Design Thinking (MIRO)](files/processo-dt.pdf)
-
 ## Etapa de entendimento
 
 ### Matriz CSD
