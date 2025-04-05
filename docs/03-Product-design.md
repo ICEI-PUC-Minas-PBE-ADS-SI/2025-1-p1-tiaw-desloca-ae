@@ -31,19 +31,18 @@ Apresente aqui as histórias de usuários que são relevantes para o projeto da 
 
 ## Proposta de valor
 
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
+### Proposta de valor da persona João Pedro
 
-##### Proposta para a persona XPTO ⚠️ EXEMPLO ⚠️
+![image](https://github.com/user-attachments/assets/ab8438a2-eb9b-461d-a0c9-9af2a8c1422c)
 
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
+### Proposta de valor da persona Milena
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O mapa da proposta de valor é uma ferramenta que auxilia na definição do tipo de produto ou serviço que melhor atende às personas previamente estabelecidas.
+![image](https://github.com/user-attachments/assets/530189c7-cbea-43f3-b589-954df28076bc)
 
+### Proposta de valor da persona Maria
 
-> **Links úteis**:
-> - [O que é o canvas da proposta de valor e como usar?](https://www.youtube.com/watch?v=Iqb-8Q_eiiA)
+![image](https://github.com/user-attachments/assets/fa8eed7f-249f-49d4-80f7-2b1c998d8026)
+
 
 ## Requisitos
 
