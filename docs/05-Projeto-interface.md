@@ -65,7 +65,18 @@
 
 ![image](https://github.com/user-attachments/assets/0ecc3da8-5b22-464d-ba78-b87c992c11d9)
 
+![image](https://github.com/user-attachments/assets/a7f221a8-6535-4ab9-973e-1cc582a8f957)
+
+![image](https://github.com/user-attachments/assets/15a2db1f-0d17-4122-bced-acfad554f9ee)
+
+![image](https://github.com/user-attachments/assets/a3a2ea3f-0307-45f0-968a-4d9f85906045)
+
+![image](https://github.com/user-attachments/assets/246b112a-9956-427b-8424-41a04f9040b1)
 
 
 ### Protótipo Interativo
+
+## Link do protótipo interativo
+
+https://www.figma.com/design/82jMlSIVKdExUwM3TewQa8/Untitled?node-id=0-1&t=SU1rHsItJIcuSYS6-1
 
