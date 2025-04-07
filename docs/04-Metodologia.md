@@ -1,14 +1,6 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Product design</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para abordar o problema. Inclua definições sobre os ambientes de trabalho utilizados pela equipe para desenvolver o projeto. Isso abrange a relação dos ambientes utilizados, a estrutura para a gestão do código-fonte, além da definição do processo e das ferramentas por meio dos quais a equipe se organiza (gestão de equipes).
-
-## Relação de ambientes de trabalho
-
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A relação dos ambientes com seus respectivos propósitos deverá ser apresentada em uma tabela que especifique e detalhe Ambiente, Plataforma e Link de Acesso. Defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
-
 ## Controle de versão
 
 > ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
@@ -42,19 +34,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ###  Divisão de papéis
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
-
-> A equipe utiliza o Scrum como base para definição do processo de desenvolvimento. [Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-
-- Scrum Master: nome de um membro da equipe, principal responsável pela gestão do projeto.
-- Product Owner: nome de um membro da equipe, representante dos interesses de todos os envolvidos (stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
-- Equipe de Desenvolvimento: nomes de todos os membros da equipe, pois todos os membros deverão implementar no mínimo duas telas/funcionalidades.
-- Equipe de Design: nomes dos membros da equipe que trabalharão com design.
-
-> **Links úteis**:
-> - [11 passos essenciais para implantar Scrum no seu projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+- Scrum Master: Lucas Araújo
+- Product Owner: Vitor Guimarães
+- Equipe de Desenvolvimento: Flávio Lara, Pedro Martins, Lucas Araújo
+- Equipe de Design: Flávio Lara, Pedro Martins, Vitor Guimarães
 
 ### Processo
 
@@ -64,5 +47,16 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 ### Ferramentas
 
 ![image](https://github.com/user-attachments/assets/0b987254-5276-47a4-8ce7-b6a0cc5ee6df)
+
+-Link Miro
+
+https://miro.com/app/board/uXjVINrE89o=/
+
+-Link Figma
+
+https://www.figma.com/design/4Lt1uGX2Vg3KNgGUqPPnQW/Desloca-Aê?node-id=0-1&p=f
+
+-Link Github
+
 
  
