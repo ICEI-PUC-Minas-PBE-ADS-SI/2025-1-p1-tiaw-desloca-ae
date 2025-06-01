@@ -4,7 +4,7 @@
 Esse é o nosso projeto de interface, utilizamos o Figma para desenvovê-lo.
 Contamos com Wireframes, que serviram como base para a elaboração da nossa plataforma e com o protótipo interativo, que serve de guia para a futura união das páginas.
 
- ## Link do 
+ ## Link do Figma
  
  Segue abaixo, o link do nosso Projeto de Interface:
 
@@ -12,7 +12,7 @@ Contamos com Wireframes, que serviram como base para a elaboração da nossa pla
 
  ## User flow
 
- Esse é o nosso User Flow (Protótipo Interativo) e guia como serão os possíveis caminhos entre as páginas dentro da nossa plataforma.
+ Esse é o nosso User Flow e guia como serão os possíveis caminhos entre as páginas dentro da nossa plataforma.
 
   ### Mobile
 
@@ -32,7 +32,9 @@ Contamos com Wireframes, que serviram como base para a elaboração da nossa pla
 Wireframes são esboços simples que mostram a estrutura de uma página ou sistema, servindo como um guia visual para organizar elementos como menus, botões, textos e imagens. Eles não focam em cores ou estilos, mas sim na disposição e no funcionamento das partes da interface.
 No projeto Desloca Aê, os wireframes ajudam a equipe a visualizar como será a navegação entre as telas e onde cada informação deve estar. Com isso, é possível discutir ideias, fazer ajustes e alinhar o desenvolvimento antes mesmo de iniciar a programação. Essa etapa torna o processo mais claro, evita retrabalho e contribui para uma experiência mais organizada e eficiente para o usuário.
 
-### Desktop
+### 
+
+Esse é o nosso wireframe - versão Desktop
 
 ![image](https://github.com/user-attachments/assets/5b4d09b8-daaf-440f-a6b2-2cea28eb382c)
 
@@ -60,6 +62,8 @@ No projeto Desloca Aê, os wireframes ajudam a equipe a visualizar como será a 
 
 
 ### Mobile
+
+Esse é o nosso wireframe - versão Mobile
 
 ![image](https://github.com/user-attachments/assets/c490e1b5-c8d3-41ff-95e5-cbb6eaf440ca)
 
@@ -90,7 +94,11 @@ No projeto Desloca Aê, os wireframes ajudam a equipe a visualizar como será a 
 
 ### Protótipo Interativo
 
+O protótipo interativo é uma representação visual e funcional da plataforma, criada com o objetivo de simular a experiência do usuário antes do desenvolvimento final. Ele permite que se teste, de forma prática, a navegação entre as páginas, os fluxos de uso e a disposição dos elementos na tela. Essa prévia facilita a identificação de melhorias na interface, garante que a lógica de navegação esteja clara e proporciona à equipe uma base mais sólida para alinhar ideias, validar funcionalidades e antecipar possíveis ajustes. Dessa forma, o protótipo interativo contribui diretamente para um desenvolvimento mais eficiente e uma experiência final mais intuitiva para o usuário.
+
 ## Link do protótipo interativo
+
+Segue o link do nosso Protótipo Interativo.
 
 https://www.figma.com/design/82jMlSIVKdExUwM3TewQa8/Untitled?node-id=0-1&t=SU1rHsItJIcuSYS6-1
 
