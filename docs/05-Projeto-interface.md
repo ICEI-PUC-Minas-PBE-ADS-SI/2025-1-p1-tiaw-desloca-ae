@@ -1,7 +1,12 @@
 
 # Projeto de interface
 
- ## Link do Figma
+Esse é o nosso projeto de interface, utilizamos o Figma para desenvovê-lo.
+Contamos com Wireframes, que serviram como base para a elaboração da nossa plataforma e com o protótipo interativo, que serve de guia para a futura união das páginas.
+
+ ## Link do 
+ 
+ Segue abaixo, o link do nosso Projeto de Interface:
 
  https://www.figma.com/design/4Lt1uGX2Vg3KNgGUqPPnQW/Desloca-Aê?node-id=0-1&p=f
 
