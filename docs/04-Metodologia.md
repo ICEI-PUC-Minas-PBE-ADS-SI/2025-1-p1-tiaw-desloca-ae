@@ -30,7 +30,7 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 ### Processo
 
-![image](https://github.com/user-attachments/assets/a3303fe8-0334-40af-8e77-160ee6d46799)
+![alt text](images/image.png)
 
 
 ### Ferramentas
