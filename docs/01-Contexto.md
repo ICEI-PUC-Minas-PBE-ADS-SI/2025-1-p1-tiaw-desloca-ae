@@ -17,11 +17,11 @@ O objetivo geral é desenvolver um aplicativo que otimize o tempo de deslocament
 
 ### Objetivos Específicos:
 
-Reduzir o tempo de espera dos usuários, sugerindo os melhores horários e rotas disponíveis.
+- Reduzir o tempo de espera dos usuários, sugerindo os melhores horários e rotas disponíveis.
 
-Fornecer atualizações em tempo real sobre atrasos, congestionamentos e mudanças nas linhas.
+- Fornecer atualizações em tempo real sobre atrasos, congestionamentos e mudanças nas linhas.
 
-Promover uma experiência mais tranquila e previsível, diminuindo o estresse causado por imprevistos no transporte.
+- Promover uma experiência mais tranquila e previsível, diminuindo o estresse causado por imprevistos no transporte.
 
 ## Justificativa
 
