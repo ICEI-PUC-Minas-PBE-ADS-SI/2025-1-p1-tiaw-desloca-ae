@@ -12,16 +12,25 @@ Contamos com Wireframes, que serviram como base para a elaboração da nossa pla
 
  ## User flow
 
+ Esse é o nosso User Flow (Protótipo Interativo) e guia como serão os possíveis caminhos entre as páginas dentro da nossa plataforma.
+
   ### Mobile
+
+  Essa é a versão Mobile.
 
 ![image](https://github.com/user-attachments/assets/78037bf5-6ab8-4fff-a098-e92ac3cc5c3f)
 
   ### PC
 
+  Essa é a versão para PC.
+
 ![image](https://github.com/user-attachments/assets/1a0919e5-619e-42a5-bda6-60c1d70f48db)
 
 
 ## Wireframes
+
+Wireframes são esboços simples que mostram a estrutura de uma página ou sistema, servindo como um guia visual para organizar elementos como menus, botões, textos e imagens. Eles não focam em cores ou estilos, mas sim na disposição e no funcionamento das partes da interface.
+No projeto Desloca Aê, os wireframes ajudam a equipe a visualizar como será a navegação entre as telas e onde cada informação deve estar. Com isso, é possível discutir ideias, fazer ajustes e alinhar o desenvolvimento antes mesmo de iniciar a programação. Essa etapa torna o processo mais claro, evita retrabalho e contribui para uma experiência mais organizada e eficiente para o usuário.
 
 ### Desktop
 
