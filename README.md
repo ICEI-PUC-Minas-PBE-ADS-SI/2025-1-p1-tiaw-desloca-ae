@@ -6,7 +6,8 @@
 
 `1º semestre/2025`
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+O projeto Desloca Aê foi criado com o intuito de facilitar a vida dos usuários de transporte público, sejam eles estudantes, trabalhadores, motoristas, entre outros. A plataforma objetiva passar aos usuários, de forma intuitiva, as informações mais importantes relacionadas ao Transporte Público de sua região. Contamos com páginas de notícias, agenda inutitiva, sistema de gamificação, apresentação de informações úteis das linhas e muito mais.
+Nosso objetivo é melhorar a qualidade de vida dos usuários, sabemos o quão desgastante é utilizar o transporte público em nosso país e, nada mais justo, do que facilitar a vida de quem batalha diariamente por um futuro melhor,
 
 ## Integrantes
 
