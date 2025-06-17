@@ -708,3 +708,244 @@ h2 {
     border-radius: 5px;
     background-color: #f9f9f9;
 }
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow {
+    display: none;
+}
+
+
+.slideshow img { width:100%; }
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.legenda {
+    width: auto;
+    color: #fdfdfd;
+    font-size: 0.9em;
+    padding:5px;
+    position: absolute;
+    bottom: 18%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 10%;
+}
+
+.numeracao {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.paginacao {
+    width:100%;
+    float:left;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.dot {
+
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 4px;
+    border-radius: 50px;
+    background-color: #007cff;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.ativo,
+.dot:hover {
+    background-color: #242424;
+}
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (min-width:60em){
+
+
+    .legenda   { font-size:2em; padding:8px; }
+    .paginacao { margin:20px 0; }
+    .dot       { width:18px; height:18px; }
+}
+
+@keyframes slide {
+    0%, 25% {
+        transform: translateX(0);
+    }
+
+    33%, 58% {
+        transform: translateX(-100%);
+    }
+
+    66%, 91% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.quadro-novidades {
+    width: 97%;
+    margin: 30px auto;
+    border: 2px solid #0f365f;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f0f8ff;
+    height: 110px ;
+}
+
+.quadro-novidades h2 {
+    text-align: center;
+    color: #0f365f;
+}
+
+.quadro-novidades h3 {
+    text-align: center;
+    color: #0f365f;
+}
+
+#mapa {
+    width: 99%;
+    height: 400px;
+    margin: 30px auto;
+    border: 2px solid #0f365f;
+    border-radius: 10px;
+}
+
+.novidades-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+.novidades-header h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #0f365f;
+    font-size: 1.8rem;
+}
+
+.botao-novidades {
+    background-color: #0f365f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.botao-novidades:hover {
+    background-color: #092544;
+}
+
+.caixa-direcoes {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    width: 280px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    padding: 10px 14px;
+}
+
+.icone {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.input-direcao {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .caixa-direcoes {
+        left: 50%;
+        transform: translateX(-50%);
+        width: calc(100% - 40px);
+    }
+}
