@@ -13,7 +13,7 @@ Nosso objetivo é melhorar a qualidade de vida dos usuários, sabemos o quão de
 
 * Flávio Henrique Lara Santos
 * Lucas Gabriel Adelino Araújo
-* Matheus Lomas de Almeida Ameno
+
 * Pedro Martins Assunção de Oliveira
 * Vitor de Oliveira Guimaraes
 
