@@ -1,0 +1,179 @@
+html {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #0f365f;
+  color: #fff;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.home-button i {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.nav-btn {
+  padding: 8px 16px;
+  background-color: #1a4d80;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn:hover {
+  background-color: #0c2b47;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+}
+
+h1 {
+  color: #0f365f;
+  margin-top: 15px;
+}
+
+.subtitulo {
+  margin-top: -20px;
+}
+
+
+h2 {
+  color: #0f365f;
+  margin-bottom: 5px;
+}
+
+h3 {
+  color: #0f365f;
+  margin-top: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.mensagem {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ecedee;
+  border-left: 5px solid #0f365f;
+  font-style: italic;
+}
+
+.footer {
+  background-color: #0f365f;
+  color: #fff;
+  text-align: center;
+  padding: 12px 8px;
+  width: 100%;
+}
+
+.direitos p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .container {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: none;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  ul li {
+    font-size: 0.95rem;
+  }
+
+  .mensagem {
+    font-size: 0.9rem;
+  }
+}

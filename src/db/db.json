@@ -201,5 +201,31 @@
       "conteudo": "Semáforos ficaram desligados por quase três horas na principal avenida da cidade, causando confusão no trânsito.",
       "data": "05/06/2025"
     }
+  ],
+  "compromissos": [
+    {
+      "id": 1,
+      "hora": "07:30",
+      "origem": "Casa",
+      "destino": "Escritório"
+    },
+    {
+      "id": 2,
+      "hora": "12:00",
+      "origem": "Escritório",
+      "destino": "Academia"
+    },
+    {
+      "id": 3,
+      "hora": "15:30",
+      "origem": "Casa",
+      "destino": "Faculdade"
+    },
+    {
+      "id": 4,
+      "hora": "18:00",
+      "origem": "Faculdade",
+      "destino": "Casa"
+    }
   ]
 }

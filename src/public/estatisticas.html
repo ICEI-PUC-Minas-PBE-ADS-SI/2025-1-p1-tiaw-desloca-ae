@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Estatísticas</title>
+    <link rel="stylesheet" href="assets/css/estatisticas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="desloca.html" class="home-button" aria-label="Página Inicial">
+                <i class="fa fa-home"></i>
+            </a>
+            <div class="nav-links">
+                <a href="agenda.html" class="nav-btn">Agenda</a>
+                <a href="estatisticas.html" class="nav-btn">Estatísticas</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Minhas Estatísticas Desloca</h1>
+            <p class="subtitulo">Acompanhe seus hábitos de mobilidade urbana</p>
+
+            <div class="card">
+                <div class="visao-geral">
+                    <h2>Visão Geral da Semana</h2>
+                    <ul>
+                        <li><i class="fas fa-bus"></i> Total de deslocamentos: <strong
+                                id="total-deslocamentos"></strong></li>
+                        <li><i class="fas fa-clock"></i> Tempo médio por deslocamento: <strong
+                                id="tempo-medio"></strong></li>
+                        <li><i class="fas fa-hourglass-half"></i> Tempo total gasto em transporte: <strong
+                                id="tempo-total"></strong></li>
+                    </ul>
+                </div>
+
+                <div class="rotas-mais-usadas">
+                    <h2>Rotas Mais Usadas</h2>
+                    <ul id="lista-rotas">
+                        <!--Prenchimento pelo APP.JS-->
+                    </ul>
+
+                    <div id="mensagem" class="mensagem">
+                        <!--Prenchimento pelo APP.JS-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="direitos">
+            <p>&copy; 2025 Desloca Aê. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/estatisticas.js"></script>
+</body>
+
+</html>
