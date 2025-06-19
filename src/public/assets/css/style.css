@@ -96,22 +96,46 @@ a:hover {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* separa logo e menu */
     align-items: center;
+    /* alinha verticalmente */
     background: #0f365f;
     height: 8vh;
-
+    padding: 0 40px;
+    /* espaço nas laterais */
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.list-nav {
+.logo {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list {
     list-style: none;
     display: flex;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
 }
 
-.list-nav li {
+.nav-list li {
     margin-left: 32px;
     font-weight: bold;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-lista:hover {
+    opacity: 0.7;
 }
 
 .mobile-menu {
@@ -132,7 +156,7 @@ nav {
         overflow-x: hidden;
     }
 
-    .list-nav {
+    .nav-list {
         position: absolute;
         top: 8vh;
         right: 0;
@@ -152,7 +176,7 @@ nav {
         color: #0f365f;
     }
 
-    .list-nav li {
+    .nav-list li {
         margin-left: 0;
         opacity: 0;
     }
@@ -162,7 +186,7 @@ nav {
     }
 }
 
-.list-nav.active {
+.nav-list.active {
     transform: translateX(0);
 }
 
@@ -720,7 +744,9 @@ h2 {
 }
 
 
-.slideshow img { width:100%; }
+.slideshow img {
+    width: 100%;
+}
 
 .prev,
 .next {
@@ -751,7 +777,7 @@ h2 {
     width: auto;
     color: #fdfdfd;
     font-size: 0.9em;
-    padding:5px;
+    padding: 5px;
     position: absolute;
     bottom: 18%;
     text-align: center;
@@ -768,8 +794,8 @@ h2 {
 }
 
 .paginacao {
-    width:100%;
-    float:left;
+    width: 100%;
+    float: left;
     margin: 10px 0;
     text-align: center;
 }
@@ -803,6 +829,7 @@ h2 {
     from {
         opacity: .4;
     }
+
     to {
         opacity: 1;
     }
@@ -812,29 +839,44 @@ h2 {
     from {
         opacity: .4;
     }
+
     to {
         opacity: 1;
     }
 }
 
-@media (min-width:60em){
+@media (min-width:60em) {
 
 
-    .legenda   { font-size:2em; padding:8px; }
-    .paginacao { margin:20px 0; }
-    .dot       { width:18px; height:18px; }
+    .legenda {
+        font-size: 2em;
+        padding: 8px;
+    }
+
+    .paginacao {
+        margin: 20px 0;
+    }
+
+    .dot {
+        width: 18px;
+        height: 18px;
+    }
 }
 
 @keyframes slide {
-    0%, 25% {
+
+    0%,
+    25% {
         transform: translateX(0);
     }
 
-    33%, 58% {
+    33%,
+    58% {
         transform: translateX(-100%);
     }
 
-    66%, 91% {
+    66%,
+    91% {
         transform: translateX(-200%);
     }
 
@@ -850,7 +892,7 @@ h2 {
     border-radius: 10px;
     padding: 10px;
     background-color: #f0f8ff;
-    height: 110px ;
+    height: 110px;
 }
 
 .quadro-novidades h2 {
