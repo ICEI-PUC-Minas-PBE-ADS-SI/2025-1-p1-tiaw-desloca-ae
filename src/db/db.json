@@ -5,6 +5,7 @@
       "login": "admin",
       "senha": "123",
       "nome": "Administrador do Sistema",
+      "telefone": "31 99999-9999",
       "email": "admin@abc.com"
     },
     {
@@ -12,14 +13,29 @@
       "login": "user",
       "senha": "123",
       "nome": "Usuario Comum",
+      "telefone": "31 99999-9999",
       "email": "user@abc.com"
     },
     {
       "login": "rommel",
       "senha": "123",
       "nome": "Rommel",
+      "telefone": "31 99999-9999",
       "email": "rommel@gmail.com",
       "id": 3
+    }
+  ],
+
+
+  "feedbacks": [
+    {
+      "id": 1,
+      "nome": "VITOR DE OLIVEIRA GUIMARÃES",
+      "email": "ovitordeoliveiraguimaraes@gmail.com",
+      "comentario": "wdsad",
+      "bairro": "adsad",
+      "nota": 5,
+      "data": "15/06/2025, 16:09:07"
     }
   ],
   
