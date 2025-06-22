@@ -72,7 +72,7 @@ function mostrarCriarConta() {
       );
 
       if (usuario) {
-        window.location.href = 'feedbacks.html';
+        window.location.href = 'index.html';
       } else {
         mensagem.textContent = "Usuário ou senha incorretos.";
       }
