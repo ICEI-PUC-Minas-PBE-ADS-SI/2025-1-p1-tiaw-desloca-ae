@@ -34,7 +34,7 @@ Por exemplo:
 |:---: |:---: |
 | Requisito associado | RF-00Y - A aplicação deve possuir opção de cadastrar uma notícia. |
 | Objetivo do teste | Verificar se o usuário consegue cadastrar uma notícia. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site (Link) <br> - Clicar no menu "Notícias" <br> - Preencher os campos da nova notícia <br> - <br> - Clicar em "Cadstrar NOtícia" |
+| Passos | - Acessar o navegador <br> - Informar o endereço do site (Link) <br> - Clicar no menu "Notícias" <br> - Preencher os campos da nova notícia <br>- Clicar em "Cadstrar Notícia" |
 | Critério de êxito | - Notícia cadastrada com sucesso. |
 | Responsável pela elaboração do caso de teste | Lucas Gabriel. |
 
