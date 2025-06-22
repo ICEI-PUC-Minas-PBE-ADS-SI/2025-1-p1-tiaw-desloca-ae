@@ -30,7 +30,7 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-002 – Cadastrar Notícia**  |
+| **Caso de teste**  | **CT-003 – Cadastrar Notícia**  |
 |:---: |:---: |
 | Requisito associado | RF-00Y - A aplicação deve possuir opção de cadastrar uma notícia. |
 | Objetivo do teste | Verificar se o usuário consegue cadastrar uma notícia. |
