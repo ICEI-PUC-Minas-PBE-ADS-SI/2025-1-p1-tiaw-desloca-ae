@@ -53,10 +53,32 @@ Por exemplo:
 | **Caso de teste**  | **VT-002 – Login de usuário**  |
 |:---: |:---: |
 | Requisito associado | A página deve permitir que o usuário faça login com a página criada.|
-| Objetivo do teste | Verificar se o usuário consegue fazer login no site. |
+| Objetivo do teste | Verificar se o usuário consegue fazer login no site.|
 | Passos | - Acessar a página de login <br> - Preencher o campo "E-mail ou Telefone" <br> - Preencher o campo "Senha" <br> - Clicar em "Entrar" |
 | Critério de êxito | - Caso o e-mail ou telefone e senha estejam corretos, o login é efetuado com êxito e o usuário é direcionado para a página about.|
 | Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
+
+<br>
+
+| **Caso de teste**  | **VT-002 – Login de usuário**  |
+|:---: |:---: |
+| Requisito associado | A seção "Feedbacks" deve permitir que o usuário avalie a página através de feedbacks.|
+| Objetivo do teste | Verificar se o usuário consegue realizar uma avaliação.|
+| Passos | - Acessar a página de feedbacks <br> - Preencher os campos correspondentes <br> - Clicar em "Enviar Feedback" |
+| Critério de êxito | - O feedback é enviado com sucesso e um pop-up de êxito aparece no canto inferior da tela. |
+| Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
+
+<br>
+
+| **Caso de teste**  | **VT-002 – Login de usuário**  |
+|:---: |:---: |
+| Requisito associado | O botão "Feedbacks Enviados" deve levar o usuário a uma seção de visualização das avaliações.|
+| Objetivo do teste | Verificar se o usuário consegue vizualizar e excluir os feedbacks enviados por ele.|
+| Passos | - Clicar no botão "Feedbacks Enviados" <br> - Visualizar um feedback  <br> - Clicar em "Excluir" |
+| Critério de êxito | - O feedback é visualizado e excluído com sucesso. |
+| Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
+
+
 
 
 ## Ferramentas de testes (opcional)
