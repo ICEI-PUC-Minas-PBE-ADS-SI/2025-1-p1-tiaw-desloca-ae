@@ -98,6 +98,45 @@ Por exemplo:
 | Critério de êxito | - Um marcador deve aparecer no mapa com o nome do bairro que você inseriu e a nota atribuída. |
 | Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
 
+<br>
+
+| **Caso de teste**  | **CT-001 – Editar/Excluir Compromisso** |
+|:---: |:---: |
+| Requisito associado | A aplicação deve permitir ao usuário editar ou excluir compromissos exibidos na tela principal. |
+| Objetivo do teste | Verificar se o usuário consegue editar ou excluir compromissos existentes. |
+| Passos | -  Na tela principal, identificar a tabela com compromissos <br> - Clicar no botão "Editar" de um compromisso <br> - Modificar a hora e o local <br> - Sair do campo para confirmar a edição <br> - Clicar no botão "Excluir" para remover um compromisso. |
+| Critério de êxito | - As edições são salvas automaticamente e a seção “Próximo Deslocamento” é atualizada <br> - O compromisso é removido da tabela após a exclusão. |
+| Responsável pela elaboração do caso de teste | Pedro Martins |
+
+<br>
+
+| **Caso de teste**  | **CT-002 – Adicionar Novo Compromisso** |
+|:---: |:---: |
+| Requisito associado | A aplicação deve permitir ao usuário adicionar um novo compromisso, limitado a apenas um extra. |
+| Objetivo do teste | Verificar se o usuário consegue adicionar um novo compromisso e editar seus dados. |
+| Passos | - Na tela principal, clicar em "+ Adicionar compromisso" <br> - Preencher os campos de hora e local do novo compromisso e clicar em salvar <br> - Notificação que e o compromisso foi adicionado com sucesso. |
+| Critério de êxito | - O sistema permite a criação/adição de um novo compromisso <br> - O novo compromisso aparece na lista e influencia a seção “Próximo Deslocamento” |
+| Responsável pela elaboração do caso de teste | Pedro Martins |
+
+<br>
+
+| **Caso de teste**  | **CT-003 – Acessar a Seção de Estatísticas** |
+|:---: |:---: |
+| Requisito associado | A aplicação deve permitir acesso à seção de estatísticas a partir da página da agenda. |
+| Objetivo do teste | Verificar se o usuário consegue acessar corretamente a seção de estatísticas. |
+| Passos | - Estar na tela da agenda com o JSON Server em execução <br> - Clicar no botão "Estatísticas" no cabeçalho |
+| Critério de êxito | - A tela de estatísticas é carregada com o resumo visual das rotas mais utilizadas |
+| Responsável pela elaboração do caso de teste | Pedro Martins|
+
+<br>
+
+| **Caso de teste**  | **CT-004 – Atualização Automática das Estatísticas** |
+|:---: |:---: |
+| Requisito associado | A aplicação deve atualizar automaticamente os dados estatísticos ao alterar a agenda. |
+| Objetivo do teste | Verificar se as estatísticas são atualizadas automaticamente após mudanças nos compromissos. |
+| Passos | - Acessar a página da agenda com compromissos existentes <br> - Adicionar, editar ou excluir um compromisso <br> - Clicar em "Estatísticas" para verificar as alterações |
+| Critério de êxito | - As alterações feitas nos compromissos são refletidas automaticamente na tela de estatísticas |
+| Responsável pela elaboração do caso de teste | Pedro Martins |
 
 
 
