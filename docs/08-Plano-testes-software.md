@@ -46,7 +46,7 @@ Por exemplo:
 | Objetivo do teste | Verificar se o usuário consegue se cadastrar no site. |
 | Passos | - Acessar a página de login <br> - Clicar no botão "Cadastre-se" <br> - Preencher os campos correspondentes <br> - Clicar em "Criar" |
 | Critério de êxito | - A conta foi criada com sucesso. |
-| Responsável pela elaboração do caso de teste | PEDRO MARTINS |
+| Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
 
 <br>
 
@@ -54,10 +54,9 @@ Por exemplo:
 |:---: |:---: |
 | Requisito associado | A página deve permitir que o usuário faça login com a página criada.|
 | Objetivo do teste | Verificar se o usuário consegue fazer login no site. |
-| Passos | - Acessar a página de login <br> - Preencher o campo "E-mail ou Telefone"
- <br> - Preencher o campo "Senha" <br> - Clicar em "Entrar" |
+| Passos | - Acessar a página de login <br> - Preencher o campo "E-mail ou Telefone" <br> - Preencher o campo "Senha" <br> - Clicar em "Entrar" |
 | Critério de êxito | - Caso o e-mail ou telefone e senha estejam corretos, o login é efetuado com êxito e o usuário é direcionado para a página about.|
-| Responsável pela elaboração do caso de teste | PEDRO MARTINS |
+| Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
 
 
 ## Ferramentas de testes (opcional)
