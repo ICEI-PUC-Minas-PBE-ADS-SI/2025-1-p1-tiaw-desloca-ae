@@ -30,9 +30,9 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-003 – Cadastrar Notícia**  |
+| **Caso de teste**  | **CT-001 – Cadastrar Notícia**  |
 |:---: |:---: |
-| Requisito associado | RF-00Y - A aplicação deve possuir opção de cadastrar uma notícia. |
+| Requisito associado | A aplicação deve possuir opção de cadastrar uma notícia. |
 | Objetivo do teste | Verificar se o usuário consegue cadastrar uma notícia. |
 | Passos | - Acessar o navegador <br> - Informar o endereço do site (Link) <br> - Clicar no menu "Notícias" <br> - Preencher os campos da nova notícia <br>- Clicar em "Cadstrar Notícia" |
 | Critério de êxito | - Notícia cadastrada com sucesso. |
@@ -100,7 +100,7 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-001 – Editar/Excluir Compromisso** |
+| **Caso de teste**  | **PM-001 – Editar/Excluir Compromisso** |
 |:---: |:---: |
 | Requisito associado | A aplicação deve permitir ao usuário editar ou excluir compromissos exibidos na tela principal. |
 | Objetivo do teste | Verificar se o usuário consegue editar ou excluir compromissos existentes. |
@@ -110,7 +110,7 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-002 – Adicionar Novo Compromisso** |
+| **Caso de teste**  | **PM-002 – Adicionar Novo Compromisso** |
 |:---: |:---: |
 | Requisito associado | A aplicação deve permitir ao usuário adicionar um novo compromisso, limitado a apenas um extra. |
 | Objetivo do teste | Verificar se o usuário consegue adicionar um novo compromisso e editar seus dados. |
@@ -120,7 +120,7 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-003 – Acessar a Seção de Estatísticas** |
+| **Caso de teste**  | **PM-003 – Acessar a Seção de Estatísticas** |
 |:---: |:---: |
 | Requisito associado | A aplicação deve permitir acesso à seção de estatísticas a partir da página da agenda. |
 | Objetivo do teste | Verificar se o usuário consegue acessar corretamente a seção de estatísticas. |
@@ -130,7 +130,7 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-004 – Atualização Automática das Estatísticas** |
+| **Caso de teste**  | **PM-004 – Atualização Automática das Estatísticas** |
 |:---: |:---: |
 | Requisito associado | A aplicação deve atualizar automaticamente os dados estatísticos ao alterar a agenda. |
 | Objetivo do teste | Verificar se as estatísticas são atualizadas automaticamente após mudanças nos compromissos. |
