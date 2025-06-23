@@ -52,7 +52,7 @@ Por exemplo:
 
 | **Caso de teste**  | **VT-002 – Login de usuário**  |
 |:---: |:---: |
-| Requisito associado | A página deve permitir que o usuário faça login com a página criada.|
+| Requisito associado | A página deve permitir que o usuário faça login com a conta criada.|
 | Objetivo do teste | Verificar se o usuário consegue fazer login no site.|
 | Passos | - Acessar a página de login <br> - Preencher o campo "E-mail ou Telefone" <br> - Preencher o campo "Senha" <br> - Clicar em "Entrar" |
 | Critério de êxito | - Caso o e-mail ou telefone e senha estejam corretos, o login é efetuado com êxito e o usuário é direcionado para a página about.|
@@ -73,7 +73,7 @@ Por exemplo:
 | **Caso de teste**  | **VT-004 – Ver e Excluir Feedback**  |
 |:---: |:---: |
 | Requisito associado | O botão "Feedbacks Enviados" deve levar o usuário a uma seção de visualização das avaliações.|
-| Objetivo do teste | Verificar se o usuário consegue vizualizar e excluir os feedbacks enviados por ele.|
+| Objetivo do teste | Verificar se o usuário consegue visualizar e excluir os feedbacks enviados por ele.|
 | Passos | - Clicar no botão "Feedbacks Enviados" <br> - Visualizar um feedback  <br> - Clicar em "Excluir" |
 | Critério de êxito | - O feedback é visualizado e excluído com sucesso. |
 | Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
@@ -83,8 +83,8 @@ Por exemplo:
 | **Caso de teste**  | **VT-005 – Perfil de usuário**  |
 |:---: |:---: |
 | Requisito associado | A página deve permitir que o usuário veja os dados cadastrados no login na aba "Meu Perfil" e permitir que ele personalize o perfil com uma foto.|
-| Objetivo do teste | Verificar se o usuário consegue vizualizar seus dados de cadastro e adicionar uma foto de perfil.|
-| Passos | - Clicar no botão "Meu Perfil" na aba de feedbacks <br> - Visualizar os dados ja cadastrados  <br> - Clicar em "Enviar nova foto" <br> - Escolher uma foto e fazer o upload. |
+| Objetivo do teste | Verificar se o usuário consegue visualizar seus dados de cadastro e adicionar uma foto de perfil.|
+| Passos | - Clicar no botão "Meu Perfil" na aba de feedbacks <br> - Visualizar os dados ja cadastrados  <br> - Clicar em "Enviar nova foto" <br> - Escolher uma foto e fazer o upload |
 | Critério de êxito | - A foto enviada e os dados cadastrados são exibidos corretamente. |
 | Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
 
@@ -93,8 +93,8 @@ Por exemplo:
 | **Caso de teste**  | **VT-006 - Mapa de Feedbacks**  |
 |:---: |:---: |
 | Requisito associado | O usuário pode visualizar a média de avaliações dos príncipais bairros de Betim onde há feedbacks enviados.|
-| Objetivo do teste | Verificar se o usuário consegue vizualizar o mapa com as médias de feedbacks em casa bairro de Betim.|
-| Passos | - Realizar um feedback e prencher o campo "Bairro" corretamente. <br> - Clicar no botão "Mapa de Feedbakcs" no navbar da aba de feedbacks. |
+| Objetivo do teste | Verificar se o usuário consegue vizualizar o mapa com as médias de feedbacks dos bairros de Betim.|
+| Passos | - Realizar um feedback e prencher o campo "Bairro" corretamente <br> - Clicar no botão "Mapa de Feedbacks" no navbar da aba de feedbacks |
 | Critério de êxito | - Um marcador deve aparecer no mapa com o nome do bairro que você inseriu e a nota atribuída. |
 | Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
 
