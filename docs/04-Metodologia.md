@@ -34,13 +34,12 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
  
 ### Ferramentas
 
-![image](https://github.com/user-attachments/assets/0b987254-5276-47a4-8ce7-b6a0cc5ee6df)
 
 | Ambiente                            | Plataforma                         | Link de acesso                                                                 |
 |-------------------------------------|------------------------------------|--------------------------------------                                          |
 | Processo de Design Thinking         | Miro                               | https://miro.com/app/board/uXjVINrE89o=/                                       |
 | Repositório de código fonte         | GitHub                             | https://www.figma.com/design/4Lt1uGX2Vg3KNgGUqPPnQW/Desloca-Aê?node-id=0-1&p=f |
-| Documentos do projeto               | GitHub                             | http://....    ⚠️ EXEMPLO ⚠️                                                  |
-| Gerenciamento do projeto            | GitHub Projects                    | http://....    ⚠️ EXEMPLO ⚠️                                                  |
+| Documentos do projeto               | GitHub                             |            https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p1-tiaw-desloca-ae.git                                       |
+| Gerenciamento do projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PBE-ADS-SI/projects/46                                           |
 | Projeto de interface                | Figma                              |https://www.figma.com/design/4Lt1uGX2Vg3KNgGUqPPnQW/Desloca-Aê?node-id=0-1&p=f  |
 | Hospedagem                          | Vercel                             | http://....    ⚠️ EXEMPLO ⚠️                                                  |
