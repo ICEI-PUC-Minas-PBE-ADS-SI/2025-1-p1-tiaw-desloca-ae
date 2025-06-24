@@ -14,7 +14,19 @@
 
 <br>
 
-| **Caso de teste**  | **VT-002 – Login de usuário**  |
+<br>
+
+| **Caso de teste**  | **CT-002 – Cadastro de Conta**  |
+|:---: |:---: |
+| Requisito associado | A página deve permitir que o usuário crie uma nova conta. |
+| Objetivo do teste | Verificar se o usuário consegue se cadastrar no site. |
+| Passos | - Acessar a página de login <br> - Clicar no botão "Cadastre-se" <br> - Preencher os campos correspondentes <br> - Clicar em "Criar" |
+| Critério de êxito | - A conta foi criada com sucesso. |
+| Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
+
+<br>
+
+| **Caso de teste**  | **CT-003 – Login de usuário**  |
 |:---: |:---: |
 | Requisito associado | A página deve permitir que o usuário faça login com a conta criada.|
 | Objetivo do teste | Verificar se o usuário consegue fazer login no site.|
@@ -24,7 +36,7 @@
 
 <br>
 
-| **Caso de teste**  | **VT-003 – Enviar Feedback**  |
+| **Caso de teste**  | **CT-004 – Enviar Feedback**  |
 |:---: |:---: |
 | Requisito associado | A seção "Feedbacks" deve permitir que o usuário avalie a página através de feedbacks.|
 | Objetivo do teste | Verificar se o usuário consegue realizar uma avaliação.|
@@ -34,7 +46,7 @@
 
 <br>
 
-| **Caso de teste**  | **VT-004 – Ver e Excluir Feedback**  |
+| **Caso de teste**  | **CT-005 – Ver e Excluir Feedback**  |
 |:---: |:---: |
 | Requisito associado | O botão "Feedbacks Enviados" deve levar o usuário a uma seção de visualização das avaliações.|
 | Objetivo do teste | Verificar se o usuário consegue visualizar e excluir os feedbacks enviados por ele.|
@@ -44,7 +56,7 @@
 
 <br>
 
-| **Caso de teste**  | **VT-005 – Perfil de usuário**  |
+| **Caso de teste**  | **CT-006 – Perfil de usuário**  |
 |:---: |:---: |
 | Requisito associado | A página deve permitir que o usuário veja os dados cadastrados no login na aba "Meu Perfil" e permitir que ele personalize o perfil com uma foto.|
 | Objetivo do teste | Verificar se o usuário consegue visualizar seus dados de cadastro e adicionar uma foto de perfil.|
@@ -54,7 +66,7 @@
 
 <br>
 
-| **Caso de teste**  | **VT-006 - Mapa de Feedbacks**  |
+| **Caso de teste**  | **CT-007 - Mapa de Feedbacks**  |
 |:---: |:---: |
 | Requisito associado | O usuário pode visualizar a média de avaliações dos príncipais bairros de Betim onde há feedbacks enviados.|
 | Objetivo do teste | Verificar se o usuário consegue vizualizar o mapa com as médias de feedbacks dos bairros de Betim.|
@@ -64,7 +76,7 @@
 
 <br>
 
-| **Caso de teste**  | **PM-001 – Editar/Excluir Compromisso** |
+| **Caso de teste**  | **CT-008 – Editar/Excluir Compromisso** |
 |:---: |:---: |
 | Requisito associado | A aplicação deve permitir ao usuário editar ou excluir compromissos exibidos na tela principal. |
 | Objetivo do teste | Verificar se o usuário consegue editar ou excluir compromissos existentes. |
@@ -74,7 +86,7 @@
 
 <br>
 
-| **Caso de teste**  | **PM-002 – Adicionar Novo Compromisso** |
+| **Caso de teste**  | **CT-009 – Adicionar Novo Compromisso** |
 |:---: |:---: |
 | Requisito associado | A aplicação deve permitir ao usuário adicionar um novo compromisso, limitado a apenas um extra. |
 | Objetivo do teste | Verificar se o usuário consegue adicionar um novo compromisso e editar seus dados. |
@@ -84,7 +96,7 @@
 
 <br>
 
-| **Caso de teste**  | **PM-003 – Acessar a Seção de Estatísticas** |
+| **Caso de teste**  | **CT-010 – Acessar a Seção de Estatísticas** |
 |:---: |:---: |
 | Requisito associado | A aplicação deve permitir acesso à seção de estatísticas a partir da página da agenda. |
 | Objetivo do teste | Verificar se o usuário consegue acessar corretamente a seção de estatísticas. |
@@ -94,7 +106,7 @@
 
 <br>
 
-| **Caso de teste**  | **PM-004 – Atualização Automática das Estatísticas** |
+| **Caso de teste**  | **CT-011 – Atualização Automática das Estatísticas** |
 |:---: |:---: |
 | Requisito associado | A aplicação deve atualizar automaticamente os dados estatísticos ao alterar a agenda. |
 | Objetivo do teste | Verificar se as estatísticas são atualizadas automaticamente após mudanças nos compromissos. |
@@ -104,7 +116,7 @@
 
 <br>
 
-| **Caso de teste**  | **PM-005 – Acessar a Tela Inicial** |
+| **Caso de teste**  | **CT-012 – Acessar a Tela Inicial** |
 |:---: |:---: |
 | Requisito associado | Ao Logar ou clicar na logo site. |
 | Objetivo do teste | Verificar se o usuário consegue acessar corretamente a seção de estatísticas. |
@@ -114,7 +126,7 @@
 
 <br>
 
-| **Caso de teste**  | **PM-006 – Exibir Página de Recompensas** |
+| **Caso de teste**  | **CT-013 – Exibir Página de Recompensas** |
 |:---: |:---: |
 | Requisito associado | A aplicação deve exibir os dados de missões recompensas do usuário. |
 | Objetivo do teste | Verificar se a página mostra as missões e recompensas corretamente. |
