@@ -2,6 +2,18 @@
 
 <span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Especificação do projeto</a></span>, <a href="05-Projeto-interface.md"> Projeto de interface</a>
 
+<br>
+
+| **Caso de teste**  | **CT-001 – Cadastrar Notícia**  |
+|:---: |:---: |
+| Requisito associado | A aplicação deve possuir opção de cadastrar uma notícia. |
+| Objetivo do teste | Verificar se o usuário consegue cadastrar uma notícia. |
+| Passos | - Acessar o navegador <br> - Informar o endereço do site (Link) <br> - Clicar no menu "Notícias" <br> - Preencher os campos da nova notícia <br>- Clicar em "Cadstrar Notícia" |
+| Critério de êxito | - Notícia cadastrada com sucesso. |
+| Responsável pela elaboração do caso de teste | Lucas Gabriel |
+
+<br>
+
 | **Caso de teste**  | **VT-002 – Login de usuário**  |
 |:---: |:---: |
 | Requisito associado | A página deve permitir que o usuário faça login com a conta criada.|
@@ -109,4 +121,6 @@
 | Passos | - Acessar a página de recompensas através do cabeçalho <br> - Verificar se a página carrega e exibe os dados |
 | Critério de êxito | - A página de recompensas é carregada e exibe os dados corretamente |
 | Responsável pela elaboração do caso de teste | Flávio Lara |
+
+
 
