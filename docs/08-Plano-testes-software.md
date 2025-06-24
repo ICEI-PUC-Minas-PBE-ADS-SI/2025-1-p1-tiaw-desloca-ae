@@ -2,54 +2,6 @@
 
 <span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Especificação do projeto</a></span>, <a href="05-Projeto-interface.md"> Projeto de interface</a>
 
-O plano de testes de software é gerado a partir da especificação do sistema e consiste em casos de teste que deverão ser executados quando a implementação estiver parcial ou totalmente pronta. Apresente os cenários de teste utilizados na realização dos testes da sua aplicação. Escolha cenários de teste que demonstrem os requisitos sendo satisfeitos.
-
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico, o grupo deve detalhar quais funcionalidades foram avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s) requisito(s) associado(s) a cada um deles esteja(m) correto(s) — de acordo com o que foi definido na <a href="03-Product-design.md">Especificação do projeto</a>.
-
-Por exemplo:
-
-| **Caso de teste**  | **CT-001 – Cadastrar perfil**  |
-|:---: |:---: |
-| Requisito associado | RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que estes consigam criar e gerenciar seu perfil. |
-| Objetivo do teste | Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-| Critério de êxito | - O cadastro foi realizado com sucesso. |
-| Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
-
-<br>
-
-| **Caso de teste**  | **CT-002 – Efetuar login**  |
-|:---: |:---: |
-| Requisito associado | RF-00Y - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do teste | Verificar se o usuário consegue realizar login. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo de senha <br> - Clicar em "Login" |
-| Critério de êxito | - O login foi realizado com sucesso. |
-| Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
-
-<br>
-
-| **Caso de teste**  | **CT-001 – Cadastrar Notícia**  |
-|:---: |:---: |
-| Requisito associado | A aplicação deve possuir opção de cadastrar uma notícia. |
-| Objetivo do teste | Verificar se o usuário consegue cadastrar uma notícia. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site (Link) <br> - Clicar no menu "Notícias" <br> - Preencher os campos da nova notícia <br>- Clicar em "Cadstrar Notícia" |
-| Critério de êxito | - Notícia cadastrada com sucesso. |
-| Responsável pela elaboração do caso de teste | Lucas Gabriel. |
-
-<br>
-
-| **Caso de teste**  | **VT-001 – Cadastro de Conta**  |
-|:---: |:---: |
-| Requisito associado | A página deve permitir que o usuário crie uma nova conta. |
-| Objetivo do teste | Verificar se o usuário consegue se cadastrar no site. |
-| Passos | - Acessar a página de login <br> - Clicar no botão "Cadastre-se" <br> - Preencher os campos correspondentes <br> - Clicar em "Criar" |
-| Critério de êxito | - A conta foi criada com sucesso. |
-| Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
-
-<br>
-
 | **Caso de teste**  | **VT-002 – Login de usuário**  |
 |:---: |:---: |
 | Requisito associado | A página deve permitir que o usuário faça login com a conta criada.|
@@ -138,16 +90,23 @@ Por exemplo:
 | Critério de êxito | - As alterações feitas nos compromissos são refletidas automaticamente na tela de estatísticas |
 | Responsável pela elaboração do caso de teste | Pedro Martins |
 
+<br>
 
+| **Caso de teste**  | **PM-005 – Acessar a Tela Inicial** |
+|:---: |:---: |
+| Requisito associado | Ao Logar ou clicar na logo site. |
+| Objetivo do teste | Verificar se o usuário consegue acessar corretamente a seção de estatísticas. |
+| Passos | - Acessar a tela inicial com o JSON Server em execução <br> - Logar ou Clicar na logo do site caso estiver em outra funcionalidade <br> - Permitir que o navegador use a localização |
+| Critério de êxito | - O mapa é carregado corretamente, exibindo a localização do usuário e o carrossel de novidades está funcional |
+| Responsável pela elaboração do caso de teste | Flávio Lara |
 
-## Ferramentas de testes (opcional)
+<br>
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links úteis**:
-> - [IBM - criação e geração de planos de teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e técnicas de testes ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de software: conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e geração de planos de teste de software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de teste para JavaScript](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+| **Caso de teste**  | **PM-006 – Exibir Página de Recompensas** |
+|:---: |:---: |
+| Requisito associado | A aplicação deve exibir os dados de missões recompensas do usuário. |
+| Objetivo do teste | Verificar se a página mostra as missões e recompensas corretamente. |
+| Passos | - Acessar a página de recompensas através do cabeçalho <br> - Verificar se a página carrega e exibe os dados |
+| Critério de êxito | - A página de recompensas é carregada e exibe os dados corretamente |
+| Responsável pela elaboração do caso de teste | Flávio Lara |
+
