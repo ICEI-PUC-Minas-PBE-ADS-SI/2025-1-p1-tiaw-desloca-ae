@@ -65,31 +65,30 @@ Esse é o nosso wireframe - versão Desktop
 
 Esse é o nosso wireframe - versão Mobile
 
-![image](https://github.com/user-attachments/assets/41bd9db0-4155-4a9c-95b2-50a2e92a742a)
+![image](https://github.com/user-attachments/assets/cd26ae3c-fe36-44f1-bfe9-e8cf6264fb6d)
 
 ![image](https://github.com/user-attachments/assets/c03073f1-458c-4f67-9553-295ad9efbc3a)
 
-![image](https://github.com/user-attachments/assets/acaf84fe-932b-4161-999c-551855fbf2e0)
+![image](https://github.com/user-attachments/assets/8dacf6f8-d980-4b7a-9d4b-9c1f8ebb2213)
 
-![image](https://github.com/user-attachments/assets/39c9f2ae-3567-49a0-8a69-26e5324ba7e1)
+![image](https://github.com/user-attachments/assets/41a8943b-e189-4735-8997-c4506d89f91d)
 
-![image](https://github.com/user-attachments/assets/be97abea-a4af-4849-a235-8d7278a51233)
+![image](https://github.com/user-attachments/assets/7f333aee-352c-4562-9f96-cf3bf5858d59)
 
-![image](https://github.com/user-attachments/assets/3662a4fa-80c2-47d7-8566-5575b9e2c7ac)
+![image](https://github.com/user-attachments/assets/13eb24af-0ec1-4f83-a22b-74b65006c0c9)
 
-![image](https://github.com/user-attachments/assets/a274e693-2b1d-4b9e-b14e-b0d6b33205ef)
+![image](https://github.com/user-attachments/assets/c0e52b41-47f5-48a2-af15-d05b489e16ee)
 
-![image](https://github.com/user-attachments/assets/6ef82ffd-e010-45e4-adbc-4799ce122f5e)
+![image](https://github.com/user-attachments/assets/46dad6c3-f86a-4684-8327-14eb28a854fc)
 
-![image](https://github.com/user-attachments/assets/0ecc3da8-5b22-464d-ba78-b87c992c11d9)
+![image](https://github.com/user-attachments/assets/acd38896-fd61-4a2d-bfc9-cabc25cc9cf7)
 
-![image](https://github.com/user-attachments/assets/a7f221a8-6535-4ab9-973e-1cc582a8f957)
+![image](https://github.com/user-attachments/assets/9069557e-3dd4-4ecd-9cf8-b56698f226ef)
 
-![image](https://github.com/user-attachments/assets/15a2db1f-0d17-4122-bced-acfad554f9ee)
+![image](https://github.com/user-attachments/assets/b0f678cc-8777-4857-9594-9ae4058a92c6)
 
-![image](https://github.com/user-attachments/assets/a3a2ea3f-0307-45f0-968a-4d9f85906045)
+![image](https://github.com/user-attachments/assets/aa0925ab-0bd2-42f9-9e0c-913fff952023)
 
-![image](https://github.com/user-attachments/assets/246b112a-9956-427b-8424-41a04f9040b1)
 
 
 ### Protótipo Interativo
