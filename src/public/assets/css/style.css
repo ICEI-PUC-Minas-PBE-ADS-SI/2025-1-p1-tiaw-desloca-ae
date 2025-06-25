@@ -119,14 +119,14 @@ nav {
 .nav-list {
     list-style: none;
     display: flex;
-    font-size: 1.8rem;
     margin: 0;
     padding: 0;
 }
 
 .nav-list li {
+    letter-spacing: 0px;
     margin-left: 32px;
-    font-weight: bold;
+    color: white;
 }
 
 .nav-list a {
