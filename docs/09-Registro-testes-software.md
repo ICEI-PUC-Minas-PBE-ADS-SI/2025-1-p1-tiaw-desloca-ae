@@ -21,10 +21,10 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | **Caso de teste** 	| **CT-008 – Editar/Excluir Compromisso** 	|
 |:---:	|:---:	|
 | Requisito associado | RF-008 - A aplicação deve permitir ao usuário editar ou excluir compromissos exibidos na tela principal. |
-| Registro de evidência | https://github.com/user-attachments/assets/0c2a7705-cb32-4f39-b2b7-afe29fe6de65 |
+| Registro de evidência | https://github.com/user-attachments/assets/c1b8db39-7089-457e-bae9-40ed18ca2020 |
 | Responsável pelo teste | Vitor Guimarães |
 
-https://github.com/user-attachments/assets/0c2a7705-cb32-4f39-b2b7-afe29fe6de65
+https://github.com/user-attachments/assets/c1b8db39-7089-457e-bae9-40ed18ca2020
 
 <br>
 
@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/0c2a7705-cb32-4f39-b2b7-afe29fe6de65
 | Registro de evidência | https://github.com/user-attachments/assets/b57a370d-e3b4-44a5-9eca-7a934731a324 |
 | Responsável pelo teste | Vitor Guimarães |
 
-[link](https://github.com/user-attachments/assets/b57a370d-e3b4-44a5-9eca-7a934731a324)
+https://github.com/user-attachments/assets/b57a370d-e3b4-44a5-9eca-7a934731a324
 
 <br>
 
@@ -52,9 +52,9 @@ https://github.com/user-attachments/assets/4b41cb05-624a-4515-a8dc-7dd6416c9b08
 |:---:	|:---:	|
 | Requisito associado | RF-011 - 	A aplicação deve atualizar automaticamente os dados estatísticos ao alterar a agenda. |
 | Registro de evidência | https://github.com/user-attachments/assets/00f0a096-3bbc-40f6-bacf-293a00af9084 |
-| https://github.com/user-attachments/assets/00f0a096-3bbc-40f6-bacf-293a00af9084 | Vitor Guimarães |
+| Responsável pelo teste | Vitor Guimarães |
 
-link
+https://github.com/user-attachments/assets/00f0a096-3bbc-40f6-bacf-293a00af9084
 
 <br>
 
