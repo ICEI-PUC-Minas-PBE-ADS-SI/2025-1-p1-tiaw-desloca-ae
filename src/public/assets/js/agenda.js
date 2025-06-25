@@ -1,24 +1,42 @@
+const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
+if (!usuarioLogado) {
+    alert("Usuário não logado.");
+    window.location.href = "login.html";
+}
+
+const usuarioId = usuarioLogado.id;
 const tableBody = document.querySelector('.agenda-compromissos tbody');
 const addBtn = document.querySelector('.agenda-btn');
 const proximoCard = document.querySelector('.agenda-card');
-let compromissoExtra = null;
 let alertasEmitidos = {};
 const API_URL = "http://localhost:3000/compromissos";
+
+const hoje = new Date().toISOString().split("T")[0]; // formato: 2025-06-25
 
 async function carregarCompromissos() {
     const resposta = await fetch(API_URL);
     const compromissos = await resposta.json();
 
+    const compromissosUsuario = compromissos
+        .filter(c => c.usuarioId === usuarioId && c.data === hoje)
+        .sort((a, b) => a.hora.localeCompare(b.hora));
+
     tableBody.innerHTML = "";
 
-    compromissos.forEach(item => {
+    if (compromissosUsuario.length === 0) {
+        alert(`Olá, ${usuarioLogado.nome}! Quais são seus compromissos hoje?`);
+        inserirLinhaEditavel(); // se nenhum compromisso, já adiciona uma nova linha editável
+        proximoCard.innerHTML = `<p>Nenhum compromisso futuro hoje.</p>`;
+        return;
+    }
+
+    compromissosUsuario.forEach(item => {
         const linha = document.createElement('tr');
         linha.dataset.id = item.id;
         linha.innerHTML = `
             <td>${item.hora}</td>
             <td>${item.destino}</td>
         `;
-
         adicionarBotoesAcao(linha, item.id);
         tableBody.appendChild(linha);
     });
@@ -71,7 +89,7 @@ function atualizarProximoDeslocamento() {
             }
         });
     } else {
-        proximoCard.innerHTML = ` <p>Nenhum compromisso futuro hoje.</p> `;
+        proximoCard.innerHTML = `<p>Nenhum compromisso futuro hoje.</p>`;
         alertasEmitidos = {};
     }
 }
@@ -82,29 +100,44 @@ function adicionarBotoesAcao(linha, id) {
     const editBtn = document.createElement('button');
     editBtn.innerText = "Editar";
     editBtn.classList.add("agenda-edit");
+
     editBtn.onclick = async () => {
         const horaCell = linha.children[0];
         const destinoCell = linha.children[1];
 
-        if (horaCell.isContentEditable) {
+        if (editBtn.innerText === "Editar") {
+            // Entrar no modo edição
+            horaCell.contentEditable = true;
+            destinoCell.contentEditable = true;
+            horaCell.focus();
+
+            editBtn.innerText = "Salvar";
+            editBtn.classList.add("agenda-edite");
+        } else {
+            // Salvar as alterações
             const atualizado = {
                 hora: horaCell.innerText.trim(),
                 origem: "Casa",
-                destino: destinoCell.innerText.trim()
+                destino: destinoCell.innerText.trim(),
+                data: hoje,
+                usuarioId
             };
 
-            await fetch(`${API_URL}/${id}`, {
+            const resposta = await fetch(`${API_URL}/${id}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(atualizado)
             });
 
-            alert("Compromisso atualizado.");
-            carregarCompromissos();
-        } else {
-            horaCell.contentEditable = true;
-            destinoCell.contentEditable = true;
-            horaCell.focus();
+            if (resposta.ok) {
+                alert("Compromisso atualizado.");
+                horaCell.contentEditable = false;
+                destinoCell.contentEditable = false;
+                editBtn.innerText = "Editar";
+                carregarCompromissos();
+            } else {
+                alert("Erro ao atualizar compromisso.");
+            }
         }
     };
 
@@ -121,50 +154,67 @@ function adicionarBotoesAcao(linha, id) {
     actionCell.appendChild(delBtn);
 }
 
-addBtn.addEventListener('click', async () => {
-    if (compromissoExtra) {
-        alert("Limite atingido: só é possível adicionar um compromisso extra no momento.");
-        return;
-    }
+function inserirLinhaEditavel() {
+    const novaLinha = document.createElement('tr');
 
-    compromissoExtra = document.createElement('tr');
-    compromissoExtra.innerHTML = `
-        <td contenteditable="true">00:00</td>
-        <td contenteditable="true">Novo Local</td>
-    `;
+    const tdHora = document.createElement('td');
+    tdHora.contentEditable = true;
+    tdHora.innerText = "00:00";
+
+    const tdDestino = document.createElement('td');
+    tdDestino.contentEditable = true;
+    tdDestino.innerText = "Novo Local";
+
+    const tdAcoes = document.createElement('td');
 
     const salvarBtn = document.createElement('button');
     salvarBtn.innerText = "Salvar";
     salvarBtn.classList.add("agenda-save");
+
     salvarBtn.onclick = async () => {
-        const hora = compromissoExtra.children[0].innerText.trim();
-        const destino = compromissoExtra.children[1].innerText.trim();
-        const origem = "Casa"; // Definido aqui, para evitar erro
+        const hora = tdHora.innerText.trim();
+        const destino = tdDestino.innerText.trim();
+        const origem = "Casa";
 
-        const novo = { hora, origem, destino };
+        if (!hora || !destino) {
+            alert("Preencha todos os campos.");
+            return;
+        }
 
-        console.log("Novo compromisso:", novo); // Debug
+        const novoCompromisso = {
+            hora,
+            origem,
+            destino,
+            data: hoje,
+            usuarioId
+        };
 
         const resposta = await fetch(API_URL, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(novo)
+            body: JSON.stringify(novoCompromisso)
         });
 
         if (resposta.ok) {
             alert("Compromisso salvo!");
-            compromissoExtra = null;
             carregarCompromissos();
         } else {
             alert("Erro ao salvar compromisso.");
         }
     };
 
-    const cell = compromissoExtra.insertCell(-1);
-    cell.appendChild(salvarBtn);
-    tableBody.appendChild(compromissoExtra);
+    tdAcoes.appendChild(salvarBtn);
 
-    alert("Novo compromisso adicionado! Agora edite o horário e o local, e clique em 'Salvar' para que o sistema seja atualizado.");
+    novaLinha.appendChild(tdHora);
+    novaLinha.appendChild(tdDestino);
+    novaLinha.appendChild(tdAcoes);
+
+    tableBody.appendChild(novaLinha);
+}
+
+addBtn.addEventListener('click', () => {
+    inserirLinhaEditavel();
+    alert("Novo compromisso adicionado! Agora edite o horário e o local, e clique em 'Salvar'.");
 });
 
 document.addEventListener('DOMContentLoaded', () => {

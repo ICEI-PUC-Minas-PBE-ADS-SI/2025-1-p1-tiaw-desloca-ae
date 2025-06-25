@@ -1,10 +1,16 @@
 const API_URL = "http://localhost:3000/compromissos";
 
 // Função para buscar compromissos
-async function buscarCompromissos() {
+const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
+const usuarioId = usuarioLogado ? usuarioLogado.id : null;
+const hoje = new Date().toISOString().split("T")[0]; // formato '2025-06-25'
+
+async function buscarCompromissosUsuarioHoje() {
     const resposta = await fetch(API_URL);
     const dados = await resposta.json();
-    return dados;
+    if (!usuarioId) return [];
+    // filtrar pelo usuário e data atual (ou ajustar conforme necessário)
+    return dados.filter(c => c.usuarioId === usuarioId && c.data === hoje);
 }
 
 function calcularTempoMedio(totalDeslocamentos) {
@@ -83,7 +89,7 @@ function preencherMensagens(total, tempoTotal) {
 }
 
 async function iniciarDashboard() {
-    const compromissos = await buscarCompromissos();
+    const compromissos = await buscarCompromissosUsuarioHoje();
 
     const total = compromissos.length;
     const tempoMedio = calcularTempoMedio(total);
@@ -95,4 +101,4 @@ async function iniciarDashboard() {
     preencherMensagens(total, tempoTotal);
 }
 
-window.onload = iniciarDashboard;
+window.onload = iniciarDashboard
