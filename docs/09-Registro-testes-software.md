@@ -18,6 +18,46 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 
 <br>
 
+| **Caso de teste** 	| **CT-008 – Editar/Excluir Compromisso** 	|
+|:---:	|:---:	|
+| Requisito associado | RF-008 - A aplicação deve permitir ao usuário editar ou excluir compromissos exibidos na tela principal. |
+| Registro de evidência | link |
+| Responsável pelo teste | Vitor Guimarães |
+
+link
+
+<br>
+
+| **Caso de teste** 	| **CT-009 – Adicionar Novo Compromisso** 	|
+|:---:	|:---:	|
+| Requisito associado | RF-009 - A aplicação deve permitir ao usuário adicionar um novo compromisso, limitado a apenas um extra.. |
+| Registro de evidência | link |
+| Responsável pelo teste | Vitor Guimarães |
+
+link
+
+<br>
+
+| **Caso de teste** 	| **CT-010 – Acessar a Seção de Estatísticas** 	|
+|:---:	|:---:	|
+| Requisito associado | RF-010 - A aplicação deve permitir acesso à seção de estatísticas a partir da página da agenda. |
+| Registro de evidência | link |
+| Responsável pelo teste | Vitor Guimarães |
+
+link
+
+<br>
+
+| **Caso de teste** 	| **CT-011 – Atualização Automática das Estatísticas** 	|
+|:---:	|:---:	|
+| Requisito associado | RF-011 - 	A aplicação deve atualizar automaticamente os dados estatísticos ao alterar a agenda. |
+| Registro de evidência | link |
+| Responsável pelo teste | Vitor Guimarães |
+
+link
+
+<br>
+
 | **Caso de teste** 	| **CT-012 – Acessar a Tela Inicial** 	|
 |:---:	|:---:	|
 | Requisito associado | RF-012 - A aplicação deve exibir o carrossel e a localização do usuário. |
