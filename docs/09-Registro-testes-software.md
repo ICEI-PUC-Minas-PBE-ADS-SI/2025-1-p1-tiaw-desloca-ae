@@ -21,38 +21,38 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | **Caso de teste** 	| **CT-008 – Editar/Excluir Compromisso** 	|
 |:---:	|:---:	|
 | Requisito associado | RF-008 - A aplicação deve permitir ao usuário editar ou excluir compromissos exibidos na tela principal. |
-| Registro de evidência | link |
+| Registro de evidência | https://github.com/user-attachments/assets/0c2a7705-cb32-4f39-b2b7-afe29fe6de65 |
 | Responsável pelo teste | Vitor Guimarães |
 
-link
+https://github.com/user-attachments/assets/0c2a7705-cb32-4f39-b2b7-afe29fe6de65
 
 <br>
 
 | **Caso de teste** 	| **CT-009 – Adicionar Novo Compromisso** 	|
 |:---:	|:---:	|
 | Requisito associado | RF-009 - A aplicação deve permitir ao usuário adicionar um novo compromisso, limitado a apenas um extra.. |
-| Registro de evidência | link |
+| Registro de evidência | https://github.com/user-attachments/assets/b57a370d-e3b4-44a5-9eca-7a934731a324 |
 | Responsável pelo teste | Vitor Guimarães |
 
-link
+[link](https://github.com/user-attachments/assets/b57a370d-e3b4-44a5-9eca-7a934731a324)
 
 <br>
 
 | **Caso de teste** 	| **CT-010 – Acessar a Seção de Estatísticas** 	|
 |:---:	|:---:	|
 | Requisito associado | RF-010 - A aplicação deve permitir acesso à seção de estatísticas a partir da página da agenda. |
-| Registro de evidência | link |
+| Registro de evidência | https://github.com/user-attachments/assets/4b41cb05-624a-4515-a8dc-7dd6416c9b08 |
 | Responsável pelo teste | Vitor Guimarães |
 
-link
+https://github.com/user-attachments/assets/4b41cb05-624a-4515-a8dc-7dd6416c9b08
 
 <br>
 
 | **Caso de teste** 	| **CT-011 – Atualização Automática das Estatísticas** 	|
 |:---:	|:---:	|
 | Requisito associado | RF-011 - 	A aplicação deve atualizar automaticamente os dados estatísticos ao alterar a agenda. |
-| Registro de evidência | link |
-| Responsável pelo teste | Vitor Guimarães |
+| Registro de evidência | https://github.com/user-attachments/assets/00f0a096-3bbc-40f6-bacf-293a00af9084 |
+| https://github.com/user-attachments/assets/00f0a096-3bbc-40f6-bacf-293a00af9084 | Vitor Guimarães |
 
 link
 
