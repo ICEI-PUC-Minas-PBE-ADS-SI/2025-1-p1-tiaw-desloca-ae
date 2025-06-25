@@ -16,6 +16,29 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | Requisito associado | RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login. |
 | Registro de evidência | [www.teste.com.br/drive/ct-02](http://www.teste.com.br/drive/ct-02) |
 
+<br>
+
+| **Caso de teste** 	| **CT-012 – Acessar a Tela Inicial** 	|
+|:---:	|:---:	|
+| Requisito associado | RF-012 - A aplicação deve exibir o carrossel e a localização do usuário. |
+| Registro de evidência | https://github.com/user-attachments/assets/04d20f8d-1461-4712-8051-04f2b556ede6 |
+| Responsável pelo teste | Lucas Gabriel |
+
+https://github.com/user-attachments/assets/4db19bc1-876b-4a86-9da9-6722cb2a511e
+
+<br>
+
+| **Caso de teste** 	| **CT-013 – Exibir Página de Recompensas** 	|
+|:---:	|:---:	|
+| Requisito associado | RF-013 - A aplicação deve exibir os dados de missões recompensas do usuário. |
+| Registro de evidência | https://github.com/user-attachments/assets/9d226b34-e63c-4bb1-bfd2-2ef2ef9176d2 |
+| Responsável pelo teste | Lucas Gabriel |
+
+https://github.com/user-attachments/assets/9d226b34-e63c-4bb1-bfd2-2ef2ef9176d2
+
+
+
+
 
 > **Links úteis**:
 > - [Screencast: entenda o que é e como gravar vídeos com ele](https://rockcontent.com/br/blog/screencast/) 
