@@ -148,10 +148,12 @@
 
   <script>
     function carregarFeedbacks() {
-      const lista = document.getElementById("listaFeedbacks");
-      lista.innerHTML = "";
-      const feedbacks = JSON.parse(localStorage.getItem("feedbacks") || "[]");
+  const lista = document.getElementById("listaFeedbacks");
+  lista.innerHTML = "";
 
+  fetch("http://localhost:3000/feedbacks")
+    .then(res => res.json())
+    .then(feedbacks => {
       if (feedbacks.length === 0) {
         lista.innerHTML = "<p>Nenhum feedback enviado ainda.</p>";
         return;
@@ -166,18 +168,24 @@
           <strong>Comentário:</strong> ${f.comentario}<br>
           <strong>Nota:</strong> <span class="estrelas">${"★".repeat(f.nota)}${"☆".repeat(5 - f.nota)}</span><br>
           <small><strong>Enviado em:</strong> ${f.data}</small>
-          <button class="delete-btn" onclick="deletarFeedback(${index})">Excluir</button>
+          <button class="delete-btn" onclick="deletarFeedback('${f.id}')">Excluir</button>
         `;
         lista.appendChild(div);
       });
-    }
+    })
+    .catch(err => {
+      lista.innerHTML = "<p>Erro ao carregar feedbacks.</p>";
+      console.error(err);
+    });
+}
 
-    function deletarFeedback(index) {
-      let feedbacks = JSON.parse(localStorage.getItem("feedbacks") || "[]");
-      feedbacks.splice(index, 1);
-      localStorage.setItem("feedbacks", JSON.stringify(feedbacks));
-      carregarFeedbacks();
-    }
+    function deletarFeedback(id) {
+  fetch(`http://localhost:3000/feedbacks/${id}`, {
+    method: "DELETE"
+  })
+  .then(() => carregarFeedbacks())
+  .catch(err => console.error(err));
+}
 
     carregarFeedbacks();
   </script>
@@ -205,5 +213,4 @@
     </footer>
 
     <script src="navbar.js"></script>
-    <script src="assets/js/auth.js"></script>
 </body>
