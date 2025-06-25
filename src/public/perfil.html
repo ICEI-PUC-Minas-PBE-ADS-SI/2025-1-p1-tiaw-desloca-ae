@@ -31,6 +31,30 @@
             align-items: flex-start;
             padding: 40px 10px;
         }
+
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .edit-photo {
+            margin-bottom: 20px;
+        }
+
+        #fotoInput {
+            display: none;
+        }
+
+        .edit-photo label {
+            background-color: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
 
     <script>
@@ -68,6 +92,14 @@
 <main>
     <div class="profile-container">
         <h2>Meu Perfil</h2>
+
+        <img id="fotoPerfil" class="profile-photo" src="" alt="Foto de Perfil">
+        
+        <div class="edit-photo">
+            <input type="file" id="fotoInput" accept="image/*">
+            <label for="fotoInput">Alterar Foto</label>
+        </div>
+
         <div class="info" id="dadosUsuario"></div>
         <button onclick="logout()" class="edit-btn">Sair</button>
     </div>
@@ -96,14 +128,47 @@
 </footer>
 
 <script>
+    const dados = document.getElementById("dadosUsuario");
+    const fotoPerfil = document.getElementById("fotoPerfil");
+    const fotoInput = document.getElementById("fotoInput");
+
     function carregarPerfil() {
-        const dados = document.getElementById("dadosUsuario");
         dados.innerHTML = `
-        <p><strong>Nome:</strong> ${usuarioLogado.nome}</p>
-        <p><strong>Email:</strong> ${usuarioLogado.email}</p>
-        <p><strong>Telefone:</strong> ${usuarioLogado.telefone}</p>
-      `;
+            <p><strong>Nome:</strong> ${usuarioLogado.nome}</p>
+            <p><strong>Email:</strong> ${usuarioLogado.email}</p>
+            <p><strong>Telefone:</strong> ${usuarioLogado.telefone}</p>
+        `;
+        fotoPerfil.src = usuarioLogado.foto || 'https://via.placeholder.com/120';
     }
+
+    fotoInput.addEventListener("change", function () {
+        const file = fotoInput.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onloadend = async function () {
+                const base64Image = reader.result;
+                fotoPerfil.src = base64Image;
+
+                
+                try {
+                    await fetch(`http://localhost:3000/usuarios/${usuarioLogado.id}`, {
+                        method: "PATCH",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({ foto: base64Image })
+                    });
+
+                  
+                    usuarioLogado.foto = base64Image;
+                    localStorage.setItem("usuarioLogado", JSON.stringify(usuarioLogado));
+                } catch (error) {
+                    alert("Erro ao salvar imagem de perfil.");
+                }
+            };
+            reader.readAsDataURL(file);
+        }
+    });
 
     function logout() {
         localStorage.removeItem("usuarioLogado");
