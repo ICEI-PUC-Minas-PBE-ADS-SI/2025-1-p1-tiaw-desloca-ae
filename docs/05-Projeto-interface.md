@@ -54,6 +54,14 @@ Esse é o nosso wireframe - versão Desktop
 
 ![Image](https://github.com/user-attachments/assets/f323b9b5-a906-4efc-9351-9d16d542b95b)
 
+![Image](https://github.com/user-attachments/assets/0421c807-edd0-46b7-b52a-0f1421308714)
+
+![Image](https://github.com/user-attachments/assets/768f11de-4617-4c28-a13b-b18de2a9c69b)
+
+![Image](https://github.com/user-attachments/assets/6db5290d-5740-4807-b049-362c1be21693)
+
+![Image](https://github.com/user-attachments/assets/f7fbfa9e-1ee8-4025-8955-f8a2ace88410)
+
 
 ### Mobile
 
