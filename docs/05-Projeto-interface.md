@@ -18,14 +18,13 @@ Contamos com Wireframes, que serviram como base para a elaboração da nossa pla
 
   Essa é a versão Mobile.
 
-![image](https://github.com/user-attachments/assets/78037bf5-6ab8-4fff-a098-e92ac3cc5c3f)
+![Image](https://github.com/user-attachments/assets/1f8241c3-a3e6-4f69-9256-8b85afc78884)
 
   ### PC
 
   Essa é a versão para PC.
 
-![image](https://github.com/user-attachments/assets/1a0919e5-619e-42a5-bda6-60c1d70f48db)
-
+![Image](https://github.com/user-attachments/assets/e77c7c2e-0943-47d7-a850-82616753f0e3)
 
 ## Wireframes
 
