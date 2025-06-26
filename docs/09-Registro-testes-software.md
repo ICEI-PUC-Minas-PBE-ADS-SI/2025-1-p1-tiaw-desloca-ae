@@ -8,89 +8,89 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 
 <br>
 
-| **Caso de teste**  | **CT-001 – Cadastrar Notícia**  |
+**CT-001 – Cadastrar Notícia** <br>
 Responsável pelo teste : Flávio Lara
 
 -ADICIONAR LINK AQUI-
 
 <br>
 
-**CT-002 – Cadastro de Conta**
+**CT-002 – Cadastro de Conta** <br>
 Responsável pelo teste : Pedro Martins
 
 -ADICIONAR LINK AQUI-
 
 <br>
 
-**CT-003 – Login de usuário**
+**CT-003 – Login de usuário** <br>
 Responsável pelo teste : Pedro Martins
 
 -ADICIONAR LINK AQUI-
 
 <br>
 
-**CT-004 – Enviar Feedback**
+**CT-004 – Enviar Feedback** <br>
 Responsável pelo teste : Pedro Martins
 
 -ADICIONAR LINK AQUI-
 
 <br>
 
-**CT-005 – Ver e Excluir Feedback**
+**CT-005 – Ver e Excluir Feedback** <br>
 Responsável pelo teste : Pedro Martins
 
 -ADICIONAR LINK AQUI-
 
 <br>
 
-**CT-006 – Perfil de usuário**
+**CT-006 – Perfil de usuário** <br>
 Responsável pelo teste : Pedro Martins
 
 -ADICIONAR LINK AQUI-
 
 <br>
 
-**CT-007 - Mapa de Feedbacks** 
+**CT-007 - Mapa de Feedbacks** <br>
 Responsável pelo teste : Pedro Martins
 
 -ADICIONAR LINK AQUI-
 
-**CT-008 - Editar/Excluir Compromisso**
+**CT-008 - Editar/Excluir Compromisso** <br>
 Responsável pelo teste : Vitor Guimarães
 
 https://github.com/user-attachments/assets/c1b8db39-7089-457e-bae9-40ed18ca2020
 
 <br>
 
-**CT-009 – Adicionar Novo Compromisso**
+**CT-009 – Adicionar Novo Compromisso** <br>
 Responsável pelo teste : Vitor Guimarães
 
 https://github.com/user-attachments/assets/b57a370d-e3b4-44a5-9eca-7a934731a324
 
 <br>
 
-**CT-010 – Acessar a Seção de Estatísticas**
+**CT-010 – Acessar a Seção de Estatísticas** <br>
 Responsável pelo teste : Vitor Guimarães
 
 https://github.com/user-attachments/assets/4b41cb05-624a-4515-a8dc-7dd6416c9b08
 
 <br>
 
-**CT-011 - Atualização Automática das Estatísticas**
+**CT-011 - Atualização Automática das Estatísticas** <br>
 Responsável pelo teste : Vitor Guimarães
 
 https://github.com/user-attachments/assets/00f0a096-3bbc-40f6-bacf-293a00af9084
 
 <br>
 
-**CT-012 – Acessar a Tela Inicial**
+**CT-012 – Acessar a Tela Inicial** <br>
 Responsável pelo teste: Lucas Gabriel 
 
 https://github.com/user-attachments/assets/4db19bc1-876b-4a86-9da9-6722cb2a511e
 
 <br>
 
-**CT-013 – Exibir Página de Recompensas**
+**CT-013 – Exibir Página de Recompensas** <br>
 Responsável pelo teste: Lucas Gabriel 
 
 https://github.com/user-attachments/assets/9d226b34-e63c-4bb1-bfd2-2ef2ef9176d2
