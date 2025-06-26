@@ -36,29 +36,23 @@ No projeto Desloca Aê, os wireframes ajudam a equipe a visualizar como será a 
 
 Esse é o nosso wireframe - versão Desktop
 
-![image](https://github.com/user-attachments/assets/5b4d09b8-daaf-440f-a6b2-2cea28eb382c)
+![Image](https://github.com/user-attachments/assets/0d17b270-7323-4438-9e04-74eecf66c0d6)
 
-![image](https://github.com/user-attachments/assets/b8cb6a61-753a-4eb6-8dd4-a089cc6fdb2b)
+![Image](https://github.com/user-attachments/assets/77faf692-7235-4177-87d9-9e351e26dba7)
 
-![image](https://github.com/user-attachments/assets/65a35169-3511-4777-b8ea-1b49289a710a)
+![Image](https://github.com/user-attachments/assets/b558e406-3ad9-456d-8d41-1a0021d92b3d)
 
-![image](https://github.com/user-attachments/assets/94d554bf-afe2-4b57-94ae-953130e0d8c0)
+![Image](https://github.com/user-attachments/assets/e293dc45-80ec-4fac-85e8-fbf04d8c59e6)
 
-![image](https://github.com/user-attachments/assets/a27eae15-d088-4a6e-8f60-d740f274d4c6)
+![Image](https://github.com/user-attachments/assets/57088d40-0204-4a97-8ba0-4869aeb3bb1b)
 
-![image](https://github.com/user-attachments/assets/ea35dc19-13bc-4341-a860-1d10ceea5d2a)
+![Image](https://github.com/user-attachments/assets/ae0c29ce-a21a-4147-ac1b-e6f02a316593)
 
-![image](https://github.com/user-attachments/assets/767d1557-ac64-46e9-90e5-55113115cb04)
+![Image](https://github.com/user-attachments/assets/9367732c-f845-4702-b8a1-7e2b25e21af4)
 
-![image](https://github.com/user-attachments/assets/4dda50e3-d98c-4eff-8ef9-a24ae8b43285)
+![Image](https://github.com/user-attachments/assets/53f398c7-802e-465b-906f-56be9968f39a)
 
-![image](https://github.com/user-attachments/assets/ac126379-4f05-4071-b5c0-d1247b06cf3f)
-
-![image](https://github.com/user-attachments/assets/fb52813d-054d-4cc6-9751-5777c4b7ebb2)
-
-![image](https://github.com/user-attachments/assets/4b6f20d8-0a75-4946-9811-3d28d74437a4)
-
-![image](https://github.com/user-attachments/assets/b0d9483a-2877-438c-b723-830d843f69d3)
+![Image](https://github.com/user-attachments/assets/f323b9b5-a906-4efc-9351-9d16d542b95b)
 
 
 ### Mobile
