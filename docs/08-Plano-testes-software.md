@@ -88,7 +88,7 @@
 
 | **Caso de teste**  | **CT-009 – Adicionar Novo Compromisso** |
 |:---: |:---: |
-| Requisito associado | A aplicação deve permitir ao usuário adicionar um novo compromisso, limitado a apenas um extra. |
+| Requisito associado | A aplicação deve permitir ao usuário adicionar um novo compromisso. |
 | Objetivo do teste | Verificar se o usuário consegue adicionar um novo compromisso e editar seus dados. |
 | Passos | - Na tela principal, clicar em "+ Adicionar compromisso" <br> - Preencher os campos de hora e local do novo compromisso e clicar em salvar <br> - Notificação que e o compromisso foi adicionado com sucesso. |
 | Critério de êxito | - O sistema permite a criação/adição de um novo compromisso <br> - O novo compromisso aparece na lista e influencia a seção “Próximo Deslocamento” |
@@ -98,10 +98,10 @@
 
 | **Caso de teste**  | **CT-010 – Acessar a Seção de Estatísticas** |
 |:---: |:---: |
-| Requisito associado | A aplicação deve permitir acesso à seção de estatísticas a partir da página da agenda. |
+| Requisito associado | A aplicação deve permitir acesso à seção de estatísticas na visualização dos compromisos presentes e salvos na agenda.  |
 | Objetivo do teste | Verificar se o usuário consegue acessar corretamente a seção de estatísticas. |
 | Passos | - Estar na tela da agenda com o JSON Server em execução <br> - Clicar no botão "Estatísticas" no cabeçalho |
-| Critério de êxito | - A tela de estatísticas é carregada com o resumo visual das rotas mais utilizadas |
+| Critério de êxito | - A tela de estatísticas é carregada exebibindo dados salvos e computados com base na agenda do usuário |
 | Responsável pela elaboração do caso de teste | Pedro Martins|
 
 <br>
