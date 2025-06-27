@@ -59,9 +59,9 @@
 | **Caso de teste**  | **CT-006 – Perfil de usuário**  |
 |:---: |:---: |
 | Requisito associado | A página deve permitir que o usuário veja os dados cadastrados no login na aba "Meu Perfil" e permitir que ele personalize o perfil com uma foto.|
-| Objetivo do teste | Verificar se o usuário consegue visualizar seus dados de cadastro e adicionar uma foto de perfil.|
-| Passos | - Clicar no botão "Meu Perfil" na aba de feedbacks <br> - Visualizar os dados ja cadastrados  <br> - Clicar em "Enviar nova foto" <br> - Escolher uma foto e fazer o upload |
-| Critério de êxito | - A foto enviada e os dados cadastrados são exibidos corretamente. |
+| Objetivo do teste | Verificar se o usuário consegue visualizar seus dados de cadastro.|
+| Passos | - Clicar no botão "Meu Perfil" na aba de feedbacks <br> - Visualizar os dados ja cadastrados |
+| Critério de êxito | - Os dados cadastrados são exibidos corretamente. |
 | Responsável pela elaboração do caso de teste | VITOR GUIMARÃES |
 
 <br>
