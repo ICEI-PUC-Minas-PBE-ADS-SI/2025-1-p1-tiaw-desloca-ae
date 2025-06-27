@@ -97,6 +97,11 @@ https://github.com/user-attachments/assets/9d226b34-e63c-4bb1-bfd2-2ef2ef9176d2
 
 <br>
 
+**CT-014 – Pesquisar Rotas** <br>
+Responsável pelo teste: Flávio Lara
+
+https://github.com/user-attachments/assets/ec7aafd6-766c-41c0-b35c-d3a56ecad366
+
 
 ## Avaliação
 
