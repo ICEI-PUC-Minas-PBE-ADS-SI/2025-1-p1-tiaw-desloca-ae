@@ -97,12 +97,9 @@ https://github.com/user-attachments/assets/9d226b34-e63c-4bb1-bfd2-2ef2ef9176d2
 
 <br>
 
-> **Links úteis**:
-> - [Screencast: entenda o que é e como gravar vídeos com ele](https://rockcontent.com/br/blog/screencast/) 
 
 ## Avaliação
 
 Discorra sobre os resultados do teste, ressaltando os pontos fortes e fracos identificados na solução. Comente como o grupo pretende abordar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
-> **Links úteis**:
-> - [Ferramentas de Teste para JavaScript](https://geekflare.com/javascript-unit-testing/)
+
