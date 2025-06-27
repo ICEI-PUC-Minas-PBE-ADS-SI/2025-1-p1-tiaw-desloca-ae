@@ -11,7 +11,7 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 **CT-001 – Cadastrar Notícia** <br>
 Responsável pelo teste : Flávio Lara
 
--ADICIONAR LINK AQUI-
+https://github.com/user-attachments/assets/26905faa-304d-4951-8ecd-4ec8a93d45b5
 
 <br>
 
