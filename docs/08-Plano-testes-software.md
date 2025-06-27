@@ -133,6 +133,15 @@
 | Passos | - Acessar a página de recompensas através do cabeçalho <br> - Verificar se a página carrega e exibe os dados |
 | Critério de êxito | - A página de recompensas é carregada e exibe os dados corretamente |
 | Responsável pela elaboração do caso de teste | Flávio Lara |
+<br>
+
+| **Caso de teste**  | **CT-014 – Pesquisar Rotas** |
+|:---: |:---: |
+| Requisito associado | A aplicação deve exibir os dados de rotas cadastradas. |
+| Objetivo do teste | Verificar se a página mostra as rotas cadastradas corretamente. |
+| Passos | - Acessar a página de rotas através do cabeçalho <br> - Verificar se a página carrega e exibe os dados após pesquisa. |
+| Critério de êxito | - As rotas são carregadas corretamente. |
+| Responsável pela elaboração do caso de teste | Lucas Gabriel |
 
 
 
