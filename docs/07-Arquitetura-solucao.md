@@ -75,8 +75,7 @@ Permite a inclusão, leitura, alteração e exclusão de notícias para o sistem
   * Em seguida, preencha o formulário e cadastre uma nova notícia.
 * **Tela da funcionalidade**:
 
-Subir imagem
-
+![image](https://github.com/user-attachments/assets/90ec15b3-98b2-4080-bd8e-9c88e3d4c55b)
 
 ### Estruturas de dados
 
@@ -107,8 +106,7 @@ Permite a pesquisa de rotas rodoviárias cadastradas no sistema.
   * Em seguida, preencha o campo de busca com a rota desejada.
 * **Tela da funcionalidade**:
 
-Subir imagem
-
+![image](https://github.com/user-attachments/assets/ab30cc16-4081-449a-8669-3f497653f7a7)
 
 ### Estruturas de dados
 
