@@ -64,17 +64,39 @@ Registro dos usuários do sistema utilizados para login e para o perfil do siste
     senha: "123"
   }
 ```
+##### Funcionalidade 1 - Cadastro de Notícias 
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação, quanto outras estruturas que foram criadas para algum tipo de configuração.
->
-> Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.
->
-> **Orientações:**
->
-> * [JSON Introduction](https://www.w3schools.com/js/js_json_intro.asp)
-> * [Trabalhando com JSON - Aprendendo desenvolvimento web | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
+Permite a inclusão, leitura, alteração e exclusão de notícias para o sistema
+
+* **Estrutura de dados:** [Notícias](#estrutura-de-dados---noticias)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção "Notícias";
+  * Em seguida, preencha o formulário e cadastre uma nova notícia.
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+
+
+### Estruturas de dados
+
+Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info.
+
+##### Estrutura de dados - Notícias
+
+Notícias cadastradas da aplicação:
+
+```json
+  {
+    "id": "13",
+      "titulo": "Linha direta entre bairros é criada para facilitar deslocamentos",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Novo itinerário ligando os bairros Santa Rita e Palmeiras entra em operação hoje. Ônibus circulam de 15 em 15 minutos.",
+      "data": "07/06/2025"
+  }
+  
+```
+
 
 ### Módulos e APIs
 
