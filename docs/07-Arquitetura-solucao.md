@@ -68,23 +68,23 @@ Registro dos usuários do sistema utilizados para login e para o perfil do siste
 
 Permite a inclusão, leitura, alteração e exclusão de notícias para o sistema
 
-* **Estrutura de dados:** [Notícias](#estrutura-de-dados---noticias)
+* **Estrutura de dados:** [Notícias](#estrutura-de-dados---Notícias)
 * **Instruções de acesso:**
   * Abra o site e efetue o login;
   * Acesse o menu principal e escolha a opção "Notícias";
   * Em seguida, preencha o formulário e cadastre uma nova notícia.
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+Subir imagem
 
 
 ### Estruturas de dados
 
-Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info.
+A aplicação utiliza uma estrutura baseada em objetos JSON para representar e armazenar as notícias cadastradas. Cada notícia é representada como um objeto com as seguintes propriedades:
 
 ##### Estrutura de dados - Notícias
 
-Notícias cadastradas da aplicação:
+Notícias cadastradas na aplicação:
 
 ```json
   {
@@ -93,6 +93,38 @@ Notícias cadastradas da aplicação:
       "autor": "Lucas Gabriel",
       "conteudo": "Novo itinerário ligando os bairros Santa Rita e Palmeiras entra em operação hoje. Ônibus circulam de 15 em 15 minutos.",
       "data": "07/06/2025"
+  }
+  
+```
+##### Funcionalidade 2 - Pesquisas por Rotas Rodoviárias 
+
+Permite a pesquisa de rotas rodoviárias cadastradas no sistema.
+
+* **Estrutura de dados:** [Rotas](#estrutura-de-dados---rotas)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção "rotas";
+  * Em seguida, preencha o campo de busca com a rota desejada.
+* **Tela da funcionalidade**:
+
+Subir imagem
+
+
+### Estruturas de dados
+
+A aplicação utiliza objetos JSON para armazenar informações sobre rotas de ônibus. Cada rota é representada por um objeto contendo os seguintes campos:
+
+##### Estrutura de dados - Notícias
+
+Rotas cadastradas na aplicação:
+
+```json
+  {
+    "id": "9",
+      "numero_rota": "910",
+      "sentido": "Norte",
+      "trajeto": "Venda Nova - Terminal Vilarinho",
+      "preco": "5.90"
   }
   
 ```
