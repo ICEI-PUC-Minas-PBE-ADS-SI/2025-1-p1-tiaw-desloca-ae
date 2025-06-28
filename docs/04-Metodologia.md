@@ -42,4 +42,4 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 | Documentos do projeto               | GitHub                             |            https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p1-tiaw-desloca-ae.git                                       |
 | Gerenciamento do projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PBE-ADS-SI/projects/46                                           |
 | Projeto de interface                | Figma                              |https://www.figma.com/design/4Lt1uGX2Vg3KNgGUqPPnQW/Desloca-Aê?node-id=0-1&p=f  |
-| Hospedagem                          | Vercel                             | http://....    ⚠️ EXEMPLO ⚠️                                                  |
+| Hospedagem                          | Vercel                             | https://2025-1-p1-tiaw-desloca-ae.vercel.app/index.html                                           |
