@@ -174,7 +174,7 @@ Link: https://fonts.google.com/specimen/Poppins
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foram realizados.
+Para hospedar o site, foi necessário criar uma cópia do repositório no GitHub pessoal do membro Flávio Lara e ele utilizou a ferramenta Vercel para fazer o deploy a partir dessa cópia.
 
 > **Links úteis**:
 > - [Website com GitHub Pages](https://pages.github.com/)
