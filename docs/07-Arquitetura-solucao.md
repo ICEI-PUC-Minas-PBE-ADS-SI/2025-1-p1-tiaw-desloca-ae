@@ -112,7 +112,7 @@ Permite a pesquisa de rotas rodoviárias cadastradas no sistema.
 
 A aplicação utiliza objetos JSON para armazenar informações sobre rotas de ônibus. Cada rota é representada por um objeto contendo os seguintes campos:
 
-##### Estrutura de dados - Notícias
+##### Estrutura de dados - Rotas
 
 Rotas cadastradas na aplicação:
 
