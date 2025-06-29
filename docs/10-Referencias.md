@@ -1,21 +1,25 @@
-# Referências
+# Referências Bibliográficas
 
-Inclua todas as referências (livros, artigos, sites, etc.) utilizadas no desenvolvimento do trabalho.
+- BARROS, João. Internet das Coisas no transporte urbano. DIO, 2023. Disponível em: https://www.dio.me/articles/internet-das-coisas-no-transporte-urbano. 
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+- PREFEITURA MUNICIPAL DE BETIM. Transbetim – Diretoria Executiva de Transporte e Trânsito. 2025. Disponível em: https://www.betim.mg.gov.br/portal/secretarias-paginas/229/transbetim---diretoria-executiva-de-transporte-e-transito. 
 
-⚠️ EXEMPLO ⚠️
+- PREFEITURA MUNICIPAL DE BETIM. Horários do transporte público municipal. 2025. Disponível em: https://www.betim.mg.gov.br/horarios-do-transporte-publico. 
 
-- BENYON, David. **Interação humano-computador**. 2. ed. São Paulo: Pearson Prentice Hall, 2011.
+- TAVARES, Felipe J. S. et al. Análise comparativa do transporte público em Betim e Belo Horizonte: infraestrutura, custos, acessibilidade e desafios. Revista Gestão Municipal, v. 3, n. 2, 2024. Disponível em: https://revista.fjp.mg.gov.br/index.php/campo-de-publicas/article/view/100.
 
-- CORMEN, Thomas H et al. **Algoritmos:** teoria e prática. 4. ed. Rio de Janeiro: GEN LTC, 2024.
- 
-- ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019.
+- MDN WEB DOCS. HTML: HyperText Markup Language. Mozilla Developer Network, 2025. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/HTML. 
 
-- RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial:** uma abordagem moderna. 4. ed. Rio de Janeiro, RJ: LTC, 2022.
+- W3SCHOOLS. CSS Tutorial. W3Schools.com, 2025. Disponível em: https://www.w3schools.com/css/. 
 
-- SUTHERLAND, Jeffrey Victor; SUTHERLAND, J. J. **Scrum:** a arte de fazer o dobro do trabalho na metade do tempo. Rio de Janeiro, RJ: Sextante, 2019. 254 p.
+# Referências Técnicas
 
-> **Links úteis**:
-> - [Padrão PUC Minas de normalização ABNT](http://portal.pucminas.br/biblioteca/documentos/GUIA-COMPLETO-ABNT-Elaborar-formatar-trabalho-cientificoNOVO.pdf)
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/)
+- FIGMA. Figma: interface de design colaborativo. Disponível em: https://www.figma.com. 
+
+- MIRO. Miro: ferramenta de colaboração visual online. Disponível em: https://miro.com. 
+
+- GITHUB. GitHub: plataforma de hospedagem de código-fonte. Disponível em: https://github.com. 
+
+- MICROSOFT CORPORATION. Visual Studio Code: editor de código-fonte. Disponível em: https://code.visualstudio.com. 
+
+- INSTRUCTURE. Canvas: ambiente virtual de aprendizagem. Disponível em: https://pucminas.instructure.com. 
