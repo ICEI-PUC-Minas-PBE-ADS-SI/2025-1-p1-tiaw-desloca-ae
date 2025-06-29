@@ -82,10 +82,10 @@
 
     <script src="navbar.js"></script>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha512-vI/RtNekNqQJ9KXvGtrYF1IGaPtU0rUvQx+7DR2E7yBMR0xUs9i/iyx1snQfURz4qKm1aS2B4EcmqC7VrdixHg==" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 
 <script>
-  window.addEventListener('load', () => {
+  window.addEventListener('load', async () => {
     const mapa = L.map('mapa').setView([-19.9676, -44.1986], 13);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -305,33 +305,39 @@
     };
 
 
-    const feedbacks = JSON.parse(localStorage.getItem('feedbacks')) || [];
+      try {
+          const response = await fetch("http://localhost:3000/feedbacks");
+          const feedbacks = await response.json();
 
+          const notasPorBairro = {};
 
-    const notasPorBairro = {};
+          feedbacks.forEach(feedback => {
+              const bairro = feedback.bairro?.toUpperCase(); // trata nulos e padroniza
+              const nota = Number(feedback.nota);
 
-    feedbacks.forEach(feedback => {
-      const bairro = feedback.bairro;
-      const nota = Number(feedback.nota);
+              if (!bairro || isNaN(nota)) return;
 
-      if (!notasPorBairro[bairro]) {
-        notasPorBairro[bairro] = [];
+              if (!notasPorBairro[bairro]) {
+                  notasPorBairro[bairro] = [];
+              }
+
+              notasPorBairro[bairro].push(nota);
+          });
+
+          Object.keys(notasPorBairro).forEach(bairro => {
+              const notas = notasPorBairro[bairro];
+              const media = (notas.reduce((a, b) => a + b, 0) / notas.length).toFixed(1);
+
+              const coords = coordenadasBairros[bairro];
+              if (coords) {
+                  L.marker(coords).addTo(mapa)
+                      .bindPopup(`<strong>${bairro}</strong><br>Nota média: <b>${media}</b>/5`);
+              }
+          });
+
+      } catch (error) {
+          console.error("Erro ao buscar feedbacks:", error);
       }
-
-      notasPorBairro[bairro].push(nota);
-    });
-
-
-    Object.keys(notasPorBairro).forEach(bairro => {
-      const notas = notasPorBairro[bairro];
-      const media = (notas.reduce((a, b) => a + b, 0) / notas.length).toFixed(1);
-
-      const coords = coordenadasBairros[bairro];
-      if (coords) {
-        L.marker(coords).addTo(mapa)
-          .bindPopup(`<strong>${bairro}</strong><br>Nota média: <b>${media}</b>/5`);
-      }
-    });
   });
 </script>
 <script src="assets/js/auth.js"></script>
