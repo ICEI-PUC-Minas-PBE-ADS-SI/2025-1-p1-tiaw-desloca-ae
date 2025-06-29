@@ -127,6 +127,78 @@ Rotas cadastradas na aplicação:
   
 ```
 
+##### Funcionalidade 3 - Cadastro de Feedbacks 
+
+Permite a inclusão, leitura e exclusão de feedbacks para o json.server
+
+* **Estrutura de dados:** [Feedbacks](#estrutura-de-dados---Feedbacks)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção "Feedbacks";
+  * Preencha os campos e envie um novo feedback, que pode ser visualizado no campo "Feedbacks enviados".
+* **Tela da funcionalidade**:
+
+![Image](https://github.com/user-attachments/assets/fe179ac2-0b5c-45b9-8741-65a62a721cd6)
+
+### Estruturas de dados
+
+A aplicação utiliza uma estrutura baseada em objetos JSON para representar e armazenar os feedbacks cadastrados. Cada feedback é representado como um objeto contendo as seguintes propriedades:
+
+##### Estrutura de dados - Feedbacks
+
+Feedbacks enviados para o JSON Server:
+
+```json
+  "feedbacks": [
+    {
+      "id": "1",
+      "nome": "VITOR DE OLIVEIRA GUIMARÃES",
+      "email": "ovitordeoliveiraguimaraes@gmail.com",
+      "comentario": "Excelente, funciona muito bem!",
+      "bairro": "CENTRO",
+      "nota": 5,
+      "data": "15/06/2025, 16:09:07"
+    }
+  ],
+  
+```
+
+##### Funcionalidade 4 - Cadastro de Usuário e Perfil
+
+Permite o cadastro de usuários, e a visualização dos dados no perfil 
+
+* **Estrutura de dados:** [Usuários](#estrutura-de-dados---Usuários)
+* **Instruções de acesso:**
+  * Abra o site e cadastre uma nota conta;
+  * Acesse o login com os dados cadastrados;
+  * Acesse o menu principal e escolha a opção "Perfil";
+* **Tela da funcionalidade**:
+
+![Image](https://github.com/user-attachments/assets/aeda0ed5-114a-4dae-80ae-406d4fa020d6)
+
+![Image](https://github.com/user-attachments/assets/32a526db-040f-4ce3-8202-961217bf6a91)
+
+### Estruturas de dados
+
+A aplicação utiliza uma estrutura baseada em objetos JSON para representar e armazenar os usuários cadastrados. Cada usuário é representado como um objeto contendo as seguintes propriedades:
+
+##### Estrutura de dados - Usuários
+
+Usuários cadastrados na aplicação do JSON Server:
+
+```json
+  "usuarios": [
+    {
+      "id": "f6a3",
+      "nome": "Vitor Guimarães",
+      "email": "ovitordeoliveiraguimaraes@gmail.com",
+      "telefone": "31991665840",
+      "senha": "123VT"
+    }
+  ],
+  
+```
+
 
 ### Módulos e APIs
 
