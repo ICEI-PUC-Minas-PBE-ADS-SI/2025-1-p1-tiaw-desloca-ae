@@ -10,60 +10,6 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 Esta seção apresenta as funcionalidades da solução.
 
-##### Funcionalidade 1 - Cadastro de contatos ⚠️ EXEMPLO ⚠️
-
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
-
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
-* **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
-* **Tela da funcionalidade**:
-
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários, quanto aos administradores da solução.
->
-> Inclua, para cada funcionalidade, itens como: (1) títulos e descrição da funcionalidade; (2) estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
-
-### Estruturas de dados
-
-Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info.
-
-##### Estrutura de dados - Contatos
-
-Contatos da aplicação
-
-```json
-  {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
-  
-```
-
-##### Estrutura de dados - Usuários  ⚠️ EXEMPLO ⚠️
-
-Registro dos usuários do sistema utilizados para login e para o perfil do sistema.
-
-```json
-  {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
-  }
-```
 ##### Funcionalidade 1 - Cadastro de Notícias 
 
 Permite a inclusão, leitura, alteração e exclusão de notícias para o sistema
@@ -200,27 +146,31 @@ Usuários cadastrados na aplicação do JSON Server:
 ```
 
 
-### Módulos e APIs
+## Módulos e APIs
 
-Esta seção apresenta os módulos e APIs utilizados na solução.
+Esta seção descreve os módulos, bibliotecas e APIs utilizadas no desenvolvimento da solução para o sistema de deslocamento e transporte em Betim.
 
-**Images**:
+### 1. Frameworks e Bibliotecas
+- Bootstrap 5 – Framework CSS utilizado para construção da interface responsiva e estilização dos componentes do site.
+Link: https://getbootstrap.com
 
-* Unsplash - [https://unsplash.com/](https://unsplash.com/) ⚠️ EXEMPLO ⚠️
+- Font Awesome 6.5.0 – Biblioteca de ícones vetoriais utilizada para a inserção de ícones em botões, menus e rodapé, melhorando a experiência visual.
+Link: https://fontawesome.com
 
-**Fonts:**
+- Leaflet.js – Biblioteca JavaScript open source para mapas interativos, utilizada para exibir o mapa de avaliações por bairros na cidade de Betim.
+Link: https://leafletjs.com
 
-* Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/) ⚠️ EXEMPLO ⚠️
+- jQuery – Biblioteca JavaScript para facilitar manipulação do DOM e interatividade.
 
-**Scripts:**
+### 2. APIs para Acesso a Dados e Serviços
+- OpenStreetMap – Serviço de mapas colaborativo utilizado para fornecer os mapas base exibidos no sistema via Leaflet.
+Link: https://www.openstreetmap.org
 
-* jQuery - [http://www.jquery.com/](http://www.jquery.com/) ⚠️ EXEMPLO ⚠️
-* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/) ⚠️ EXEMPLO ⚠️
+LocalStorage do navegador – Utilizado para armazenar localmente os feedbacks dos usuários e suas avaliações, permitindo a persistência dos dados entre sessões.
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente os módulos e APIs utilizados no desenvolvimento da solução. Inclua itens como: (1) frameworks, bibliotecas, módulos, etc. utilizados no desenvolvimento da solução; (2) APIs utilizadas para acesso a dados, serviços, etc.
-
+### 3. Outros Recursos
+- Google Fonts – Poppins – Fonte tipográfica usada para manter a identidade visual do site, proporcionando boa legibilidade.
+Link: https://fonts.google.com/specimen/Poppins
 
 ## Hospedagem
 
