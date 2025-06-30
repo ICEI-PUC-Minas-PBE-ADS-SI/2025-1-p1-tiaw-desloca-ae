@@ -18,21 +18,21 @@ https://github.com/user-attachments/assets/26905faa-304d-4951-8ecd-4ec8a93d45b5
 **CT-002 – Cadastro de Conta** <br>
 Responsável pelo teste : Pedro Martins
 
--ADICIONAR LINK AQUI-
+https://github.com/user-attachments/assets/dcb0f43b-cf7a-4d20-8da2-c2ad5b7a4948
 
 <br>
 
 **CT-003 – Login de usuário** <br>
 Responsável pelo teste : Pedro Martins
 
--ADICIONAR LINK AQUI-
+https://github.com/user-attachments/assets/b650a29d-7a9f-4826-a7c8-8d9ec313683a
 
 <br>
 
 **CT-004 – Enviar Feedback** <br>
 Responsável pelo teste : Pedro Martins
 
--ADICIONAR LINK AQUI-
+https://github.com/user-attachments/assets/09301da5-65d0-4746-8d89-2b307086a8d8
 
 <br>
 
@@ -46,7 +46,7 @@ Responsável pelo teste : Pedro Martins
 **CT-006 – Perfil de usuário** <br>
 Responsável pelo teste : Pedro Martins
 
--ADICIONAR LINK AQUI-
+https://github.com/user-attachments/assets/aec484d9-f86d-49e1-a0ac-1bb211c1be08
 
 <br>
 
