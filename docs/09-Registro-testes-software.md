@@ -32,14 +32,14 @@ https://github.com/user-attachments/assets/b650a29d-7a9f-4826-a7c8-8d9ec313683a
 **CT-004 – Enviar Feedback** <br>
 Responsável pelo teste : Pedro Martins
 
-https://github.com/user-attachments/assets/09301da5-65d0-4746-8d89-2b307086a8d8
+https://github.com/user-attachments/assets/f5cca928-8fd6-4de4-b839-fe2cd2138afc
 
 <br>
 
 **CT-005 – Ver e Excluir Feedback** <br>
 Responsável pelo teste : Pedro Martins
 
--ADICIONAR LINK AQUI-
+https://github.com/user-attachments/assets/ab8078e7-536d-4e4c-990d-57bdb6acde31
 
 <br>
 
@@ -53,7 +53,7 @@ https://github.com/user-attachments/assets/aec484d9-f86d-49e1-a0ac-1bb211c1be08
 **CT-007 - Mapa de Feedbacks** <br>
 Responsável pelo teste : Pedro Martins
 
--ADICIONAR LINK AQUI-
+https://github.com/user-attachments/assets/08ab7504-3107-4bb0-aa38-f820b9485cfc
 
 **CT-008 - Editar/Excluir Compromisso** <br>
 Responsável pelo teste : Vitor Guimarães
